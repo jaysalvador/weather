@@ -36,6 +36,7 @@
 		B543AF91242D141D0099F2CF /* LocationClient.DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF90242D141D0099F2CF /* LocationClient.DetailResponse.swift */; };
 		B543AF93242D142C0099F2CF /* LocationClient.DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF92242D142C0099F2CF /* LocationClient.DetailRequest.swift */; };
 		B543AF94242D163D0099F2CF /* libOpenWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543AF59242C36D20099F2CF /* libOpenWeather.a */; };
+		B543AF96242D1F970099F2CF /* LocationClient.GroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF95242D1F970099F2CF /* LocationClient.GroupRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		B543AF8E242D12710099F2CF /* LocationClient.LocationsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.LocationsRequest.swift; sourceTree = "<group>"; };
 		B543AF90242D141D0099F2CF /* LocationClient.DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.DetailResponse.swift; sourceTree = "<group>"; };
 		B543AF92242D142C0099F2CF /* LocationClient.DetailRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.DetailRequest.swift; sourceTree = "<group>"; };
+		B543AF95242D1F970099F2CF /* LocationClient.GroupRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.GroupRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				B543AF64242C37590099F2CF /* HttpClient.swift */,
 				B543AF63242C37590099F2CF /* HttpError.swift */,
 				B543AF84242D0EB80099F2CF /* LocationClient.swift */,
+				B543AF95242D1F970099F2CF /* LocationClient.GroupRequest.swift */,
 				B543AF92242D142C0099F2CF /* LocationClient.DetailRequest.swift */,
 				B543AF90242D141D0099F2CF /* LocationClient.DetailResponse.swift */,
 				B543AF8E242D12710099F2CF /* LocationClient.LocationsRequest.swift */,
@@ -441,6 +444,7 @@
 				B543AF66242C37590099F2CF /* HttpClient.swift in Sources */,
 				B543AF74242C37600099F2CF /* URLSession.swift in Sources */,
 				B543AF70242C37600099F2CF /* DispatchQueue.swift in Sources */,
+				B543AF96242D1F970099F2CF /* LocationClient.GroupRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

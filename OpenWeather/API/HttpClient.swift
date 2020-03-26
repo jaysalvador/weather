@@ -113,7 +113,7 @@ public class HttpClient: HttpClientProtocol {
                         
                         let decoder = JSONDecoder()
                         
-                        decoder.dateDecodingStrategy = .formatted(.yearMonthDay)
+                        decoder.dateDecodingStrategy = .millisecondsSince1970
                         
                         let decoded = try decoder.decode(returnType, from: data)
                         

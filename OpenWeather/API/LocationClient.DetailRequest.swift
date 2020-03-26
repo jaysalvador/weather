@@ -14,11 +14,13 @@ extension LocationClient {
         
         public var locationId: String?
         public var appId: String?
+        public var units: String?
         
         enum CodingKeys: String, CodingKey {
             
             case locationId = "id"
             case appId = "appid"
+            case units
         }
     }
 }
@@ -30,6 +32,7 @@ extension LocationClient.DetailRequest {
         return UrlParameters()
             .with(key: CodingKeys.locationId, value: self.locationId)
             .with(key: CodingKeys.appId, value: self.appId)
+            .with(key: CodingKeys.units, value: self.units)
             .flattened
     }
 }

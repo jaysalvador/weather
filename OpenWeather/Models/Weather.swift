@@ -10,8 +10,23 @@ import Foundation
 
 public struct Weather: Codable {
     
-    public var id: Double?
+    public var id: Int?
     public var main: String?
     public var description: String?
     public var icon: String?
+}
+
+extension Weather: Equatable {
+    
+    // add equatable to compare Location objects
+    
+    public static func == (lhs: Weather, rhs: Weather) -> Bool {
+        
+        guard let lhsId = lhs.id, let rhsId = rhs.id else {
+            
+            return false
+        }
+        
+        return lhsId == rhsId && lhs.main == rhs.main && lhs.icon == rhs.icon
+    }
 }

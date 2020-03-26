@@ -10,8 +10,11 @@ import Foundation
 
 public protocol LocationClientProtocol {
     
-    func getLocations(query: String?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
-    func getLocations(request: LocationClient.LocationsRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
+    func getLocations(ids: [String]?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
+    func getLocations(request: LocationClient.GroupRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
+    
+    func findLocation(query: String?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
+    func findLocation(request: LocationClient.LocationsRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?)
     
     func getDetail(locationId: String?, onCompletion: HttpCompletionClosure<LocationClient.DetailResponse>?)
     func getDetail(request: LocationClient.DetailRequest, onCompletion: HttpCompletionClosure<LocationClient.DetailResponse>?)
@@ -19,14 +22,14 @@ public protocol LocationClientProtocol {
 
 public class LocationClient: HttpClient, LocationClientProtocol {
     
-    public func getLocations(query: String?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
+    public func findLocation(query: String?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
         
-        let request = LocationsRequest(query: query, appId: self.appKey)
+        let request = LocationsRequest(query: query, appId: self.appKey, units: "metric")
         
-        self.getLocations(request: request, onCompletion: onCompletion)
+        self.findLocation(request: request, onCompletion: onCompletion)
     }
     
-    public func getLocations(request: LocationClient.LocationsRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
+    public func findLocation(request: LocationClient.LocationsRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
 
         let requestString = "/find\(request.parameters)"
 
@@ -41,7 +44,7 @@ public class LocationClient: HttpClient, LocationClientProtocol {
     
     public func getDetail(locationId: String?, onCompletion: HttpCompletionClosure<LocationClient.DetailResponse>?) {
         
-        let request = DetailRequest(locationId: locationId, appId: self.appKey)
+        let request = DetailRequest(locationId: locationId, appId: self.appKey, units: "metric")
         
         self.getDetail(request: request, onCompletion: onCompletion)
     }
@@ -52,6 +55,26 @@ public class LocationClient: HttpClient, LocationClientProtocol {
 
         self.request(
             LocationClient.DetailResponse.self,
+            endpoint: requestString,
+            httpMethod: .get,
+            headers: nil,
+            onCompletion: onCompletion
+        )
+    }
+    
+    public func getLocations(ids: [String]?, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
+        
+        let request = GroupRequest(ids: ids, appId: self.appKey, units: "metric")
+        
+        self.getLocations(request: request, onCompletion: onCompletion)
+    }
+    
+    public func getLocations(request: LocationClient.GroupRequest, onCompletion: HttpCompletionClosure<LocationClient.LocationsResponse>?) {
+        
+        let requestString = "/group\(request.parameters)"
+
+        self.request(
+            LocationClient.LocationsResponse.self,
             endpoint: requestString,
             httpMethod: .get,
             headers: nil,

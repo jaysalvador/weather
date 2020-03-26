@@ -11,4 +11,23 @@ import Foundation
 public struct Country: Codable {
     
     public var country: String?
+    public var sunrise: Date?
+    public var sunset: Date?
+    
+    enum CodingKeys: String, CodingKey {
+        
+        case country
+        case sunrise
+        case sunset
+    }
+
+    // decoder override to handle dates and numbers
+    public init(from decoder: Decoder) throws {
+
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        self.country = try container.decodeIfPresent(String.self, forKey: .country)
+        self.sunrise = container.dateIfPresent(forKey: .sunrise)
+        self.sunset = container.dateIfPresent(forKey: .sunset)
+    }
 }

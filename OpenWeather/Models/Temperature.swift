@@ -10,12 +10,12 @@ import Foundation
 
 public struct Temperature: Codable {
     
-    public var temp: Double?
-    public var feelsLike: Double?
-    public var tempMin: Double?
-    public var tempMax: Double?
-    public var pressure: Double?
-    public var humidity: Double?
+    public var temp: Float?
+    public var feelsLike: Float?
+    public var tempMin: Float?
+    public var tempMax: Float?
+    public var pressure: Float?
+    public var humidity: Float?
     
     enum CodingKeys: String, CodingKey {
         
@@ -27,3 +27,20 @@ public struct Temperature: Codable {
         case humidity
     }
 }
+
+extension Temperature: Equatable {
+    
+    // add equatable to compare Location objects
+    
+    public static func == (lhs: Temperature, rhs: Temperature) -> Bool {
+        
+        return
+            lhs.temp == rhs.temp &&
+            lhs.feelsLike == rhs.feelsLike &&
+            lhs.tempMin == rhs.tempMin &&
+            lhs.tempMax == rhs.tempMax &&
+            lhs.pressure == rhs.pressure &&
+            lhs.humidity == rhs.humidity
+    }
+}
+

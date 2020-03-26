@@ -1,5 +1,5 @@
 //
-//  LocationClient.LocationsRequest.swift
+//  LocationClient.GroupRequest.swift
 //  OpenWeather
 //
 //  Created by Jay Salvador on 27/3/20.
@@ -9,28 +9,28 @@
 import Foundation
 
 extension LocationClient {
-
-    public struct LocationsRequest: Encodable {
+    
+    public struct GroupRequest {
         
-        public var query: String?
+        public var ids: [String]?
         public var appId: String?
         public var units: String?
         
         enum CodingKeys: String, CodingKey {
             
-            case query = "q"
+            case ids = "id"
             case appId = "appid"
             case units
         }
     }
 }
 
-extension LocationClient.LocationsRequest {
+extension LocationClient.GroupRequest {
     
     var parameters: String {
         
         return UrlParameters()
-            .with(key: CodingKeys.query, value: self.query)
+            .with(key: CodingKeys.ids, value: self.ids?.joined(separator: ","))
             .with(key: CodingKeys.appId, value: self.appId)
             .with(key: CodingKeys.units, value: self.units)
             .flattened

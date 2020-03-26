@@ -10,7 +10,7 @@ import Foundation
 
 public struct Location: Codable {
     
-    public var id: Double?
+    public var id: Int?
     public var name: String?
     public var coordinates: Coordinates?
     public var temperature: Temperature?
@@ -25,5 +25,20 @@ public struct Location: Codable {
         case temperature = "main"
         case weather
         case country = "sys"
+    }
+}
+
+extension Location: Equatable {
+    
+    // add equatable to compare Location objects
+    
+    public static func == (lhs: Location, rhs: Location) -> Bool {
+        
+        guard let lhsId = lhs.id, let rhsId = rhs.id else {
+            
+            return false
+        }
+        
+        return lhsId == rhsId
     }
 }

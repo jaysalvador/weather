@@ -16,12 +16,12 @@ extension KeyedDecodingContainer {
     /// - Parameter key: the `CodingKey` attribute name
     func dateIfPresent(forKey key: KeyedDecodingContainer.Key) -> Date? {
         
-        guard let string = try? self.decodeIfPresent(String.self, forKey: key) else {
+        guard let timestamp = try? self.decodeIfPresent(Double.self, forKey: key) else {
             
             return nil
         }
         
-        return string.toDate()
+        return Date(timeIntervalSince1970: timestamp)
     }
     
     /// Decode numbers based on the formats thrown by the API
