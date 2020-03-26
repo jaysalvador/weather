@@ -15,7 +15,6 @@
 		B543AF2D242C2DD50099F2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B543AF2B242C2DD50099F2CF /* LaunchScreen.storyboard */; };
 		B543AF38242C2DD50099F2CF /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF37242C2DD50099F2CF /* WeatherTests.swift */; };
 		B543AF43242C2DD50099F2CF /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF42242C2DD50099F2CF /* WeatherUITests.swift */; };
-		B543AF5C242C36D20099F2CF /* OpenWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF5B242C36D20099F2CF /* OpenWeather.swift */; };
 		B543AF65242C37590099F2CF /* HttpError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF63242C37590099F2CF /* HttpError.swift */; };
 		B543AF66242C37590099F2CF /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF64242C37590099F2CF /* HttpClient.swift */; };
 		B543AF6F242C37600099F2CF /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF67242C37600099F2CF /* DateFormatter.swift */; };
@@ -36,6 +35,7 @@
 		B543AF8F242D12710099F2CF /* LocationClient.LocationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF8E242D12710099F2CF /* LocationClient.LocationsRequest.swift */; };
 		B543AF91242D141D0099F2CF /* LocationClient.DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF90242D141D0099F2CF /* LocationClient.DetailResponse.swift */; };
 		B543AF93242D142C0099F2CF /* LocationClient.DetailRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AF92242D142C0099F2CF /* LocationClient.DetailRequest.swift */; };
+		B543AF94242D163D0099F2CF /* libOpenWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543AF59242C36D20099F2CF /* libOpenWeather.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,6 @@
 		B543AF42242C2DD50099F2CF /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		B543AF44242C2DD50099F2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B543AF59242C36D20099F2CF /* libOpenWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenWeather.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B543AF5B242C36D20099F2CF /* OpenWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
 		B543AF63242C37590099F2CF /* HttpError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		B543AF64242C37590099F2CF /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
 		B543AF67242C37600099F2CF /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
@@ -111,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B543AF94242D163D0099F2CF /* libOpenWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +198,6 @@
 				B543AF60242C36F00099F2CF /* API */,
 				B543AF62242C37420099F2CF /* Extensions */,
 				B543AF77242C37920099F2CF /* Models */,
-				B543AF5B242C36D20099F2CF /* OpenWeather.swift */,
 			);
 			path = OpenWeather;
 			sourceTree = "<group>";
@@ -442,7 +441,6 @@
 				B543AF66242C37590099F2CF /* HttpClient.swift in Sources */,
 				B543AF74242C37600099F2CF /* URLSession.swift in Sources */,
 				B543AF70242C37600099F2CF /* DispatchQueue.swift in Sources */,
-				B543AF5C242C36D20099F2CF /* OpenWeather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

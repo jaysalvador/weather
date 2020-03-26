@@ -17,13 +17,13 @@ public struct Location: Codable {
     public var weather: [Weather]?
     public var country: Country?
     
-    enum RootKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey {
         
         case id
         case name
         case coordinates = "coord"
         case temperature = "main"
-        case weater
+        case weather
         case country = "sys"
     }
 }

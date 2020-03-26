@@ -48,7 +48,7 @@ public class LocationClient: HttpClient, LocationClientProtocol {
     
     public func getDetail(request: LocationClient.DetailRequest, onCompletion: HttpCompletionClosure<LocationClient.DetailResponse>?) {
         
-        let requestString = "/find\(request.parameters)"
+        let requestString = "/weather\(request.parameters)"
 
         self.request(
             LocationClient.DetailResponse.self,
