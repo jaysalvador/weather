@@ -185,6 +185,8 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
             
             self?.viewModel?.locations?.insert(location, at: 0)
             
+            self?.viewModel?.updateLocations()
+            
             self?.viewModel?.reloadLocations(false)
         }
     }

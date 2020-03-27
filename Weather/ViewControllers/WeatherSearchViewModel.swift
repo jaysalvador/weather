@@ -50,8 +50,6 @@ class WeatherSearchViewModel: WeatherSearchViewModelProtocol {
         }
     }
     
-    private var finished: Bool = true
-    
     // MARK: - Callbacks
     
     var onUpdated: ViewModelCallback?
@@ -76,13 +74,6 @@ class WeatherSearchViewModel: WeatherSearchViewModelProtocol {
     
     private func search() {
         
-        guard self.finished == true else {
-            
-            return
-        }
-        
-        self.finished = false
-        
         self.locationClient?.findLocation(query: self.query) { [weak self] (response) in
                
             switch response {
@@ -99,8 +90,6 @@ class WeatherSearchViewModel: WeatherSearchViewModelProtocol {
                 
                 self?.onError?()
             }
-            
-            self?.finished = true
        }
     }
 }

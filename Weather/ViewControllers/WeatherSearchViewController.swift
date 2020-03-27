@@ -23,6 +23,9 @@ enum WeatherSearchItem: Equatable {
 
 class WeatherSearchViewController: JCollectionViewController<WeatherSearchSection, WeatherSearchItem> {
     
+    @IBOutlet
+    private var textField: UITextField?
+    
     var viewModel: WeatherSearchViewModelProtocol?
     
     var onWeatherSelectedClosure: WeatherSelectedClosure?
@@ -77,6 +80,8 @@ class WeatherSearchViewController: JCollectionViewController<WeatherSearchSectio
         super.viewDidLoad()
         
         self.setupViewModel()
+        
+        self.textField?.becomeFirstResponder()
     }
     
     // MARK: - UICollectionViewDataSource & UICollectionViewDelegate

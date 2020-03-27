@@ -151,7 +151,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Sydney, AU" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNW-14-dSf">
-                                <rect key="frame" x="20" y="94" width="374" height="29"/>
+                                <rect key="frame" x="20" y="114" width="374" height="29"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -159,7 +159,7 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="25°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBf-kH-oiK">
-                                <rect key="frame" x="116" y="131" width="182.5" height="143"/>
+                                <rect key="frame" x="116" y="151" width="182.5" height="143"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="120"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -167,7 +167,7 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSa-QB-q6o">
-                                <rect key="frame" x="40" y="346" width="334" height="1"/>
+                                <rect key="frame" x="40" y="366" width="334" height="1"/>
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="JJg-DD-amY"/>
@@ -186,7 +186,7 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Rain" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evG-Rf-8Or">
-                                <rect key="frame" x="20" y="274" width="374" height="22"/>
+                                <rect key="frame" x="20" y="294" width="374" height="22"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -194,7 +194,7 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hQ6-Cf-SeS">
-                                <rect key="frame" x="20" y="397" width="374" height="176"/>
+                                <rect key="frame" x="20" y="417" width="374" height="176"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nVt-Ek-690">
                                         <rect key="frame" x="0.0" y="0.0" width="182" height="176"/>
@@ -355,7 +355,7 @@
                             <constraint firstItem="lNW-14-dSf" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="fLW-dZ-GbH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZSa-QB-q6o" secondAttribute="trailing" constant="20" id="k6u-Qw-S3O"/>
                             <constraint firstItem="evG-Rf-8Or" firstAttribute="leading" secondItem="eBf-kH-oiK" secondAttribute="leading" id="o0K-ak-T4n"/>
-                            <constraint firstItem="lNW-14-dSf" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="50" id="u4k-6T-Eu6"/>
+                            <constraint firstItem="lNW-14-dSf" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="70" id="u4k-6T-Eu6"/>
                             <constraint firstItem="hQ6-Cf-SeS" firstAttribute="leading" secondItem="ZSa-QB-q6o" secondAttribute="trailing" constant="20" id="w2O-5c-XhS"/>
                             <constraint firstItem="LZW-zS-Oxs" firstAttribute="top" secondItem="Ezy-6M-lbc" secondAttribute="top" id="yo3-7D-5S5"/>
                         </constraints>
@@ -387,6 +387,7 @@
                                 <exclude reference="Onp-JW-PkC"/>
                                 <include reference="dxj-Zp-Bft"/>
                                 <exclude reference="fLW-dZ-GbH"/>
+                                <exclude reference="u4k-6T-Eu6"/>
                                 <include reference="2j0-Fi-irS"/>
                                 <exclude reference="3VT-cf-Kho"/>
                                 <include reference="6jk-mu-Vet"/>
@@ -512,7 +513,7 @@
                                                     <constraint firstAttribute="height" constant="30" id="NtF-Nh-NDV"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="15"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
                                                 <connections>
                                                     <action selector="textfieldEditingChanged:" destination="tmw-vw-inF" eventType="editingChanged" id="HCq-rI-ZUW"/>
                                                 </connections>
@@ -598,6 +599,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="dgd-4V-Uav" id="rOB-lc-oTH"/>
+                        <outlet property="textField" destination="Gau-qU-axb" id="r4k-j5-PMu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nct-9Y-KoE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

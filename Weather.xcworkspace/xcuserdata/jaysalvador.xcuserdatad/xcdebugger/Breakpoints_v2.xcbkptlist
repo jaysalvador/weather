@@ -39,16 +39,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "382CF208-FC27-4967-BBF1-3808E8AC8F2A"
-            shouldBeEnabled = "Yes"
+            uuid = "CEC32BFB-C498-4905-B596-58143F858681"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Weather/ViewControllers/WeatherDetailViewModel.swift"
+            filePath = "OpenWeather/API/HttpClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "init(location:)"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "send(_:returnType:onCompletion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DE92380-6647-49D0-B47D-B798F0982830"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenWeather/API/HttpClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "send(_:returnType:onCompletion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

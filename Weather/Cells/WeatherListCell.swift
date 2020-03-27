@@ -27,6 +27,8 @@ class WeatherListCell: UICollectionViewCell {
     
     func prepare(label: String?, tempLabel: String?, image: UIImage?) -> UICollectionViewCell? {
         
+        self.accessibilityIdentifier = label
+        
         self.label?.text = label
         
         self.tempLabel?.text = tempLabel

@@ -30,6 +30,8 @@ protocol WeatherListViewModelProtocol {
     func reloadLocations(_ loop: Bool)
     
     func reloadLocations(ids: [String]?, loop: Bool)
+    
+    func updateLocations()
 }
 
 class WeatherListViewModel: WeatherListViewModelProtocol {
@@ -50,6 +52,20 @@ class WeatherListViewModel: WeatherListViewModelProtocol {
     
     var onLoop: ViewModelCallback?
     
+    // MARK: - Defaults
+    
+    private var defaultLocationString: [String]? {
+        
+        get {
+            
+            return UserDefaults.standard.value(forKey: "location") as? [String]
+        }
+        set {
+            
+            UserDefaults.standard.set(newValue, forKey: "location")
+        }
+    }
+    
     // MARK: - Init
     
     convenience init() {
@@ -60,13 +76,23 @@ class WeatherListViewModel: WeatherListViewModelProtocol {
     init(locationClient _locationClient: LocationClientProtocol?) {
         
         self.locationClient = _locationClient
+        
+        if (self.defaultLocationString?.count ?? 0) == 0 {
+            
+            self.defaultLocationString = ["2147714","2158177","2174003"]
+        }
     }
     
     // MARK: - Functions
     
+    func updateLocations() {
+        
+        self.defaultLocationString = locations?.compactMap { String($0.id ?? 0) }
+    }
+    
     func loadLocations() {
         
-        self.reloadLocations(ids: ["2147714","2158177","2174003"], loop: true)
+        self.reloadLocations(ids: self.defaultLocationString, loop: true)
     }
     
     func reloadLocations(_ loop: Bool = false) {
