@@ -30,7 +30,7 @@ extension LocationClient.LocationsRequest {
     var parameters: String {
         
         return UrlParameters()
-            .with(key: CodingKeys.query, value: self.query)
+            .with(key: CodingKeys.query, value: self.query?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed))
             .with(key: CodingKeys.appId, value: self.appId)
             .with(key: CodingKeys.units, value: self.units)
             .flattened

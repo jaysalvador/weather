@@ -42,3 +42,11 @@ extension Location: Equatable {
         return lhsId == rhsId
     }
 }
+
+extension Location {
+    
+    public var currentWeather: Weather? {
+        
+        return self.weather?.first
+    }
+}
