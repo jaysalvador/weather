@@ -59,6 +59,7 @@
 		B543AFB7242D639E0099F2CF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AFB6242D639E0099F2CF /* UIView.swift */; };
 		B543AFB9242D668C0099F2CF /* WeatherSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AFB8242D668C0099F2CF /* WeatherSearchViewController.swift */; };
 		B543AFBB242D66960099F2CF /* WeatherSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B543AFBA242D66960099F2CF /* WeatherSearchViewModel.swift */; };
+		B5C2F580242DC1DE00CBDAFB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5C2F57F242DC1DE00CBDAFB /* README.md */; };
 		F41C0E37923644720BA088CF /* Pods_WeatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD4DDF8BB83CE5C2B3AE6B /* Pods_WeatherTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +155,7 @@
 		B543AFB6242D639E0099F2CF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		B543AFB8242D668C0099F2CF /* WeatherSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSearchViewController.swift; sourceTree = "<group>"; };
 		B543AFBA242D66960099F2CF /* WeatherSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSearchViewModel.swift; sourceTree = "<group>"; };
+		B5C2F57F242DC1DE00CBDAFB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CA8EBD6368AE7A4202116C84 /* Pods-Weather-WeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Weather-WeatherUITests.release.xcconfig"; path = "Target Support Files/Pods-Weather-WeatherUITests/Pods-Weather-WeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E86A79857E813686B80B1838 /* Pods-WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherTests/Pods-WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F52D66CA5B32AB755D418474 /* Pods-OpenWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenWeather.debug.xcconfig"; path = "Target Support Files/Pods-OpenWeather/Pods-OpenWeather.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 		B543AF14242C2DD40099F2CF = {
 			isa = PBXGroup;
 			children = (
+				B5C2F57F242DC1DE00CBDAFB /* README.md */,
 				B543AF5A242C36D20099F2CF /* OpenWeather */,
 				B543AF1F242C2DD40099F2CF /* Weather */,
 				B543AF36242C2DD50099F2CF /* WeatherTests */,
@@ -528,6 +531,7 @@
 				B543AF2D242C2DD50099F2CF /* LaunchScreen.storyboard in Resources */,
 				B543AF2A242C2DD50099F2CF /* Assets.xcassets in Resources */,
 				B543AF28242C2DD40099F2CF /* Main.storyboard in Resources */,
+				B5C2F580242DC1DE00CBDAFB /* README.md in Resources */,
 				B543AFB5242D4ECC0099F2CF /* CircularStd-Black.otf in Resources */,
 				B543AFB4242D4ECC0099F2CF /* CircularStd-Medium.otf in Resources */,
 			);

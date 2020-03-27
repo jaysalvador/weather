@@ -1,6 +1,6 @@
 # Weather App
 
-Weather app implementation using `OpemWeatherAPI`
+Weather app implementation using `OpenWeatherAPI`
 
 <p align="left">
   <img src="https://github.com/jaysalvador/weather/blob/master/images/img01.png" width="150" alt="accessibility text">
