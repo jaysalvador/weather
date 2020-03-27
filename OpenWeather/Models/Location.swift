@@ -49,4 +49,9 @@ extension Location {
         
         return self.weather?.first
     }
+    
+    public var fullName: String? {
+        
+        return "\(self.name ?? ""), \(self.country?.country ?? "")"
+    }
 }

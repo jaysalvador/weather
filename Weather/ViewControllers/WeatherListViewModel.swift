@@ -71,7 +71,7 @@ class WeatherListViewModel: WeatherListViewModelProtocol {
     
     func reloadLocations(_ loop: Bool = false) {
         
-        self.reloadLocations(ids: locations?.compactMap { String($0.id ?? 0) })
+        self.reloadLocations(ids: locations?.compactMap { String($0.id ?? 0) }, loop: true)
     }
     
     func reloadLocations(ids: [String]?, loop: Bool = false) {

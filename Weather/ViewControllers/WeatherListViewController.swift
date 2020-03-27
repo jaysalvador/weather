@@ -155,6 +155,11 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
     /// handles currency selection to show in `CurrencyDetailViewController`
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAtSection section: WeatherListSection, item: WeatherListItem) {
 
+        if case .item(let location) = item,
+            let vc = WeatherDetailViewController.make(withViewModel: WeatherDetailViewModel(location: location)) {
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout

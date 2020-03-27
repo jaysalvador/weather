@@ -49,4 +49,14 @@ extension DateFormatter {
         
         return dateFormatter
     }()
+    
+    /// returns an API date format `hh:mm a`
+    public static let hourMin: DateFormatter = {
+        
+        let dateFormatter = DateFormatter()
+        dateFormatter.locale = .current
+        dateFormatter.dateFormat = "hh:mm a"
+        
+        return dateFormatter
+    }()
 }

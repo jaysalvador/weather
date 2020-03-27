@@ -13,9 +13,9 @@ extension Date {
     /// Uses a `DateFormatter` to return the `String` formatted `Date` value
     /// - Parameter dateFormatter: user-defined `DateFormatter`
     /// - Parameter timezone: custom `TimeZone`
-    public func toString(using dateFormatter: DateFormatter?, in timezone: String? = nil) -> String? {
+    public func toString(using dateFormatter: DateFormatter?, in timezone: Int? = nil) -> String? {
 
-        dateFormatter?.timeZone = TimeZone(identifier: timezone ?? TimeZone.current.identifier)
+        dateFormatter?.timeZone = TimeZone(secondsFromGMT: timezone ?? 0)
 
         return dateFormatter?.string(from: self)
     }

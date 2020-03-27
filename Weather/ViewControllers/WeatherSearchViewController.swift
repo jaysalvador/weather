@@ -79,11 +79,6 @@ class WeatherSearchViewController: JCollectionViewController<WeatherSearchSectio
         self.setupViewModel()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        
-        super.viewDidAppear(true)
-    }
-    
     // MARK: - UICollectionViewDataSource & UICollectionViewDelegate
     
     /// Renders all the items

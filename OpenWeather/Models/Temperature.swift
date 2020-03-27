@@ -44,3 +44,20 @@ extension Temperature: Equatable {
     }
 }
 
+extension Temperature {
+    
+    public var minMaxDescription: String {
+        
+        return "\(self.tempMin?.toDegrees ?? "")/\(self.tempMax?.toDegrees ?? "")"
+    }
+    
+    public var pressureDescription: String {
+        
+        return "\(Int(self.pressure ?? 0)) hPa"
+    }
+    
+    public var humidityDescription: String {
+        
+        return "\(Int(self.humidity ?? 0))%"
+    }
+}

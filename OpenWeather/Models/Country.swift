@@ -13,12 +13,14 @@ public struct Country: Codable {
     public var country: String?
     public var sunrise: Date?
     public var sunset: Date?
+    public var timezone: Int?
     
     enum CodingKeys: String, CodingKey {
         
         case country
         case sunrise
         case sunset
+        case timezone
     }
 
     // decoder override to handle dates and numbers
@@ -29,5 +31,6 @@ public struct Country: Codable {
         self.country = try container.decodeIfPresent(String.self, forKey: .country)
         self.sunrise = container.dateIfPresent(forKey: .sunrise)
         self.sunset = container.dateIfPresent(forKey: .sunset)
+        self.timezone = try container.decodeIfPresent(Int.self, forKey: .timezone)
     }
 }

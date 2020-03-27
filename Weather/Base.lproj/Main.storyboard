@@ -49,7 +49,7 @@
                                         <rect key="frame" x="0.0" y="44" width="414" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KL-kt-BOH">
-                                                <rect key="frame" x="20" y="12" width="111" height="36"/>
+                                                <rect key="frame" x="20" y="12.5" width="111" height="35.5"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="28"/>
                                                 <nil key="textColor"/>
@@ -86,7 +86,9 @@
                                             <constraint firstAttribute="trailing" secondItem="smi-0d-up8" secondAttribute="trailing" constant="8" id="Cbs-hz-IRS"/>
                                             <constraint firstAttribute="bottom" secondItem="9KL-kt-BOH" secondAttribute="bottom" constant="16" id="P3j-Vg-Jq9"/>
                                             <constraint firstItem="smi-0d-up8" firstAttribute="centerY" secondItem="gIP-JP-Y0o" secondAttribute="centerY" id="lRq-bZ-lJx"/>
-                                            <constraint firstItem="9KL-kt-BOH" firstAttribute="leading" secondItem="gIP-JP-Y0o" secondAttribute="leading" constant="20" id="oX4-26-eMC"/>
+                                            <constraint firstItem="9KL-kt-BOH" firstAttribute="leading" secondItem="gIP-JP-Y0o" secondAttribute="leading" constant="20" id="oX4-26-eMC">
+                                                <variation key="heightClass=compact" constant="0.0"/>
+                                            </constraint>
                                             <constraint firstAttribute="height" constant="64" id="zTr-dE-Cww"/>
                                         </constraints>
                                     </view>
@@ -136,6 +138,300 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="508.69565217391306" y="118.52678571428571"/>
+        </scene>
+        <!--Weather Detail View Controller-->
+        <scene sceneID="XNH-ta-OaT">
+            <objects>
+                <viewController storyboardIdentifier="WeatherDetailViewController" id="b4j-wn-4Kx" customClass="WeatherDetailViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ezy-6M-lbc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13n" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-zS-Oxs">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Sydney, AU" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNW-14-dSf">
+                                <rect key="frame" x="20" y="94" width="374" height="29"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="25°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBf-kH-oiK">
+                                <rect key="frame" x="116" y="131" width="182.5" height="143"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="120"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSa-QB-q6o">
+                                <rect key="frame" x="40" y="346" width="334" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="JJg-DD-amY"/>
+                                    <constraint firstAttribute="width" constant="1" id="R1O-uN-1Vm"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="R1O-uN-1Vm"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="JJg-DD-amY"/>
+                                        <include reference="R1O-uN-1Vm"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Rain" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evG-Rf-8Or">
+                                <rect key="frame" x="20" y="274" width="374" height="22"/>
+                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hQ6-Cf-SeS">
+                                <rect key="frame" x="20" y="397" width="374" height="176"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nVt-Ek-690">
+                                        <rect key="frame" x="0.0" y="0.0" width="182" height="176"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Feels Like" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMe-MG-due">
+                                                <rect key="frame" x="0.0" y="0.0" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="min/max" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8J2-Q1-23W">
+                                                <rect key="frame" x="0.0" y="31" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Pressure" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc6-L4-eRr">
+                                                <rect key="frame" x="0.0" y="62" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Humidity" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDV-yZ-vRQ">
+                                                <rect key="frame" x="0.0" y="93" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunrise" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03m-7F-oHD">
+                                                <rect key="frame" x="0.0" y="124" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunset" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bk-eH-I1N">
+                                                <rect key="frame" x="0.0" y="155" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JGi-7O-fDc">
+                                        <rect key="frame" x="192" y="0.0" width="182" height="176"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Feels Like" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-6t-dnV">
+                                                <rect key="frame" x="0.0" y="0.0" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="min/max" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOK-At-Gur">
+                                                <rect key="frame" x="0.0" y="31" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Pressure" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-Xq-cys">
+                                                <rect key="frame" x="0.0" y="62" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Humidity" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brH-Kn-y89">
+                                                <rect key="frame" x="0.0" y="93" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunrise" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n73-Mr-y2l">
+                                                <rect key="frame" x="0.0" y="124" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunset" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crh-ts-Z4y">
+                                                <rect key="frame" x="0.0" y="155" width="182" height="21"/>
+                                                <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.19889768839999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="-1" height="1"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev2-2v-ifA">
+                                <rect key="frame" x="20" y="64" width="41" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="M19-nw-3Cc"/>
+                                    <constraint firstAttribute="width" constant="41" id="NwR-gP-Ugq"/>
+                                </constraints>
+                                <color key="tintColor" name="offWhite"/>
+                                <state key="normal" image="icon9x16chevronLeft"/>
+                                <connections>
+                                    <action selector="backButtonTouchUpInside:" destination="b4j-wn-4Kx" eventType="touchUpInside" id="GAj-i9-Bfp"/>
+                                    <action selector="closeButtonTouchUpInside:" destination="tmw-vw-inF" eventType="touchUpInside" id="HdO-zu-Q1g"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="evG-Rf-8Or" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="26j-dr-phV"/>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="2j0-Fi-irS"/>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="centerX" secondItem="Ezy-6M-lbc" secondAttribute="centerX" id="3VT-cf-Kho"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="top" secondItem="Ezy-6M-lbc" secondAttribute="topMargin" constant="20" id="5rb-9V-64c"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="leading" secondItem="Ezy-6M-lbc" secondAttribute="leadingMargin" constant="20" id="64D-U0-d9V"/>
+                            <constraint firstItem="ev2-2v-ifA" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="6aE-8r-uY5">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="top" secondItem="lNW-14-dSf" secondAttribute="bottom" constant="8" id="6jk-mu-Vet"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="leading" secondItem="lNW-14-dSf" secondAttribute="trailing" constant="20" id="7Na-1Z-6bM"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="7TR-rZ-ros"/>
+                            <constraint firstItem="hQ6-Cf-SeS" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="7dl-h0-G2y"/>
+                            <constraint firstItem="LZW-zS-Oxs" firstAttribute="leading" secondItem="Ezy-6M-lbc" secondAttribute="leading" id="BDj-u1-ky0"/>
+                            <constraint firstItem="ev2-2v-ifA" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="20" id="CkT-Ef-eG7"/>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="top" secondItem="lNW-14-dSf" secondAttribute="bottom" constant="8" id="DPD-q2-FMj"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="top" secondItem="evG-Rf-8Or" secondAttribute="bottom" constant="50" id="DVP-mU-JFz"/>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="50" id="Dqo-U0-psG"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="centerX" secondItem="Ezy-6M-lbc" secondAttribute="centerX" id="GXO-Bn-pF9"/>
+                            <constraint firstItem="ZSa-QB-q6o" firstAttribute="leading" secondItem="eBf-kH-oiK" secondAttribute="trailing" constant="20" id="Gg9-3m-80h"/>
+                            <constraint firstItem="i0V-yr-kar" firstAttribute="trailing" secondItem="lNW-14-dSf" secondAttribute="trailing" constant="20" id="Got-jO-RJa"/>
+                            <constraint firstItem="evG-Rf-8Or" firstAttribute="top" secondItem="eBf-kH-oiK" secondAttribute="bottom" id="Jt9-Ec-w9o"/>
+                            <constraint firstItem="i0V-yr-kar" firstAttribute="trailing" secondItem="hQ6-Cf-SeS" secondAttribute="trailing" constant="20" id="LXo-oZ-91e"/>
+                            <constraint firstItem="evG-Rf-8Or" firstAttribute="trailing" secondItem="eBf-kH-oiK" secondAttribute="trailing" id="Mdq-4k-u62"/>
+                            <constraint firstAttribute="trailing" secondItem="LZW-zS-Oxs" secondAttribute="trailing" id="MsB-ix-Wfg"/>
+                            <constraint firstItem="i0V-yr-kar" firstAttribute="trailing" secondItem="hQ6-Cf-SeS" secondAttribute="trailing" constant="20" id="NFu-JJ-Nlj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ZSa-QB-q6o" secondAttribute="bottom" constant="20" id="NUb-92-e0B"/>
+                            <constraint firstItem="i0V-yr-kar" firstAttribute="trailing" secondItem="evG-Rf-8Or" secondAttribute="trailing" constant="20" id="Onp-JW-PkC"/>
+                            <constraint firstItem="eBf-kH-oiK" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="OuH-o0-da6"/>
+                            <constraint firstItem="hQ6-Cf-SeS" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="ZEL-dj-VBi"/>
+                            <constraint firstItem="hQ6-Cf-SeS" firstAttribute="top" secondItem="ZSa-QB-q6o" secondAttribute="bottom" constant="50" id="aIN-h0-zGn"/>
+                            <constraint firstAttribute="bottom" secondItem="LZW-zS-Oxs" secondAttribute="bottom" id="dls-e4-xaD"/>
+                            <constraint firstItem="lNW-14-dSf" firstAttribute="leading" secondItem="eBf-kH-oiK" secondAttribute="leading" id="dxj-Zp-Bft"/>
+                            <constraint firstItem="lNW-14-dSf" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="fLW-dZ-GbH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZSa-QB-q6o" secondAttribute="trailing" constant="20" id="k6u-Qw-S3O"/>
+                            <constraint firstItem="evG-Rf-8Or" firstAttribute="leading" secondItem="eBf-kH-oiK" secondAttribute="leading" id="o0K-ak-T4n"/>
+                            <constraint firstItem="lNW-14-dSf" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="50" id="u4k-6T-Eu6"/>
+                            <constraint firstItem="hQ6-Cf-SeS" firstAttribute="leading" secondItem="ZSa-QB-q6o" secondAttribute="trailing" constant="20" id="w2O-5c-XhS"/>
+                            <constraint firstItem="LZW-zS-Oxs" firstAttribute="top" secondItem="Ezy-6M-lbc" secondAttribute="top" id="yo3-7D-5S5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="i0V-yr-kar"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NFu-JJ-Nlj"/>
+                                <exclude reference="dxj-Zp-Bft"/>
+                                <exclude reference="2j0-Fi-irS"/>
+                                <exclude reference="6jk-mu-Vet"/>
+                                <exclude reference="Dqo-U0-psG"/>
+                                <exclude reference="OuH-o0-da6"/>
+                                <exclude reference="Mdq-4k-u62"/>
+                                <exclude reference="o0K-ak-T4n"/>
+                                <exclude reference="5rb-9V-64c"/>
+                                <exclude reference="7Na-1Z-6bM"/>
+                                <exclude reference="7TR-rZ-ros"/>
+                                <exclude reference="Gg9-3m-80h"/>
+                                <exclude reference="NUb-92-e0B"/>
+                                <exclude reference="ZEL-dj-VBi"/>
+                                <exclude reference="w2O-5c-XhS"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="Got-jO-RJa"/>
+                                <exclude reference="LXo-oZ-91e"/>
+                                <include reference="NFu-JJ-Nlj"/>
+                                <exclude reference="Onp-JW-PkC"/>
+                                <include reference="dxj-Zp-Bft"/>
+                                <exclude reference="fLW-dZ-GbH"/>
+                                <include reference="2j0-Fi-irS"/>
+                                <exclude reference="3VT-cf-Kho"/>
+                                <include reference="6jk-mu-Vet"/>
+                                <include reference="Dqo-U0-psG"/>
+                                <exclude reference="OuH-o0-da6"/>
+                                <exclude reference="26j-dr-phV"/>
+                                <include reference="Mdq-4k-u62"/>
+                                <include reference="o0K-ak-T4n"/>
+                                <include reference="5rb-9V-64c"/>
+                                <exclude reference="64D-U0-d9V"/>
+                                <include reference="7Na-1Z-6bM"/>
+                                <exclude reference="7TR-rZ-ros"/>
+                                <exclude reference="DVP-mU-JFz"/>
+                                <include reference="GXO-Bn-pF9"/>
+                                <include reference="Gg9-3m-80h"/>
+                                <include reference="NUb-92-e0B"/>
+                                <exclude reference="k6u-Qw-S3O"/>
+                                <exclude reference="7dl-h0-G2y"/>
+                                <include reference="ZEL-dj-VBi"/>
+                                <exclude reference="aIN-h0-zGn"/>
+                                <include reference="w2O-5c-XhS"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="DPD-q2-FMj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="feelsLikeLabel" destination="m8o-6t-dnV" id="tJ5-hh-fc8"/>
+                        <outlet property="humidityLabel" destination="brH-Kn-y89" id="1uv-Zr-TgB"/>
+                        <outlet property="imageView" destination="LZW-zS-Oxs" id="uXW-nR-O2z"/>
+                        <outlet property="locationLabel" destination="lNW-14-dSf" id="zUz-I8-YEN"/>
+                        <outlet property="minMaxLabel" destination="HOK-At-Gur" id="Cs0-g6-mHu"/>
+                        <outlet property="pressureLabel" destination="4h3-Xq-cys" id="w4K-FP-T08"/>
+                        <outlet property="sunriseLabel" destination="n73-Mr-y2l" id="q5B-P5-gd3"/>
+                        <outlet property="sunsetLabel" destination="Crh-ts-Z4y" id="665-MK-1fa"/>
+                        <outlet property="tempLabel" destination="eBf-kH-oiK" id="gRf-y0-c9X"/>
+                        <outlet property="weatherLabel" destination="evG-Rf-8Or" id="bIY-jp-Ary"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPB-CG-LRU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505.79710144927537" y="791.51785714285711"/>
         </scene>
         <!--Weather Search View Controller-->
         <scene sceneID="vqW-OI-lGv">
@@ -326,11 +622,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="13n" width="2560" height="1600"/>
         <image name="icon16x16search" width="16" height="16"/>
         <image name="icon24x24plus" width="24" height="24"/>
         <image name="icon9x16chevronLeft" width="9" height="16"/>
         <namedColor name="offWhite">
-            <color red="0.96862745098039216" green="0.97647058823529409" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.96899998188018799" green="0.97600001096725464" blue="0.98400002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="watermelon">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
