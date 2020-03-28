@@ -42,9 +42,16 @@ class JCollectionViewController<Section: Equatable, Item: Equatable>: UIViewCont
         
         self.setupCollectionView()
         
+        self.setupNotifications() 
+        
     }
          
     // MARK: - Setup
+    
+    private func setupNotifications() {
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(orientationChanged), name: UIDevice.orientationDidChangeNotification, object: nil)
+    }
 
     func setupCollectionView() {
 
@@ -215,6 +222,17 @@ class JCollectionViewController<Section: Equatable, Item: Equatable>: UIViewCont
         if let indexPath = self.diffCalculator?.indexPath(forSection: section, value: item) {
             
             self.collectionView?.scrollToItem(at: indexPath, at: scrollPosition, animated: animated)
+        }
+    }
+    
+    // MARK: - Actions
+    
+    @objc
+    func orientationChanged() {
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(175)) { [weak self] in
+            
+            self?.updateSectionsAndItems(forced: true)
         }
     }
     

@@ -76,6 +76,8 @@ class WeatherDetailViewController: UIViewController {
         self.tempLabel?.text = location.temperature?.temp?.toDegrees
         
         self.tempLabel?.heroID = "\(id)_tempLabel"
+        
+        self.tempLabel?.hero.modifiers = [.spring(stiffness: 250, damping: 25)]
 
         self.weatherLabel?.text = location.weather?.first?.main
         

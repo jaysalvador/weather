@@ -42,6 +42,8 @@ class WeatherListCell: UICollectionViewCell {
         
         self.tempLabel?.heroID = "\(id)_tempLabel"
         
+        self.tempLabel?.hero.modifiers = [.spring(stiffness: 250, damping: 25)]
+        
         self.bgImageView?.image = image
         
         self.bgImageView?.heroID = "\(id)_imageView"
