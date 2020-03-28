@@ -16,6 +16,7 @@ target 'Weather' do
   # Pods for Weather
 
   pod 'Dwifft', :git => 'https://github.com/jflinter/Dwifft.git', :commit => 'c5a9c62'
+  pod 'Hero'
 
   target 'WeatherTests' do
     inherit! :search_paths

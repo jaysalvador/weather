@@ -1,8 +1,14 @@
 PODS:
   - Dwifft (0.9)
+  - Hero (1.5.0)
 
 DEPENDENCIES:
   - Dwifft (from `https://github.com/jflinter/Dwifft.git`, commit `c5a9c62`)
+  - Hero
+
+SPEC REPOS:
+  trunk:
+    - Hero
 
 EXTERNAL SOURCES:
   Dwifft:
@@ -16,7 +22,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Dwifft: 00dcec0f3c38cfb9c1331509851e81c84fc3949e
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
 
-PODFILE CHECKSUM: 53bf59d863d0d8e71edc03cf4dca0864356e9639
+PODFILE CHECKSUM: cc57858e9eaae8d93e22ca379bbaa707c08607c3
 
 COCOAPODS: 1.8.3
