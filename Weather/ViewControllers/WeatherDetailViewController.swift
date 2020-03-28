@@ -8,6 +8,7 @@
 
 import UIKit
 import OpenWeather
+import Hero
 
 class WeatherDetailViewController: UIViewController {
 
@@ -52,7 +53,7 @@ class WeatherDetailViewController: UIViewController {
 
     func setup() {
         
-        guard let location = self.viewModel?.location else {
+        guard let location = self.viewModel?.location, let id = location.id else {
             
             self.navigationController?.popViewController(animated: true)
             
@@ -62,12 +63,20 @@ class WeatherDetailViewController: UIViewController {
         if let icon = location.weather?.first?.icon {
 
             self.imageView?.image = UIImage(named: icon)
+            
+            self.imageView?.heroID = "\(id)_imageView"
         }
         
         self.locationLabel?.text = location.fullName
         
+        self.locationLabel?.heroID = "\(id)_locationLabel"
+        
+        self.locationLabel?.hero.modifiers = [.spring(stiffness: 250, damping: 25), .translate(x: 200, y: 100)]
+        
         self.tempLabel?.text = location.temperature?.temp?.toDegrees
         
+        self.tempLabel?.heroID = "\(id)_tempLabel"
+
         self.weatherLabel?.text = location.weather?.first?.main
         
         self.feelsLikeLabel?.text = location.temperature?.feelsLike?.toDegrees
