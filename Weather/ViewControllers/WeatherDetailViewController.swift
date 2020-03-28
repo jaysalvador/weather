@@ -42,6 +42,18 @@ class WeatherDetailViewController: UIViewController {
     @IBOutlet
     private var imageView: UIImageView?
     
+    @IBOutlet
+    private var detailStackView: UIStackView?
+    
+    @IBOutlet
+    private var lineView: UIView?
+    
+    @IBOutlet
+    private var backButton: UIButton?
+    
+    @IBOutlet
+    private var transparentView: UIView?
+    
     var viewModel: WeatherDetailViewModelProtocol?
     
     override func viewDidLoad() {
@@ -92,11 +104,53 @@ class WeatherDetailViewController: UIViewController {
         self.sunriseLabel?.text = location.country?.sunrise?.toString(using: .hourMin, in: location.country?.timezone)
         
         self.sunsetLabel?.text = location.country?.sunset?.toString(using: .hourMin, in: location.country?.timezone)
+        
+        self.detailStackView?.alpha = 0.0
+        
+        self.backButton?.alpha = 0.0
+        
+        self.lineView?.alpha = 0.0
+        
+        self.weatherLabel?.alpha = 0.0
+        
+        self.transparentView?.alpha = 0.0
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        
+        self.animateViews(1.0)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        
+        self.animateViews(0.0)
+    }
+    
+    private func animateViews(_ alpha: CGFloat) {
+        
+        UIView.animate(withDuration: 0.175) {
+
+            self.detailStackView?.alpha = alpha
+            
+            self.backButton?.alpha = alpha
+            
+            self.lineView?.alpha = alpha
+            
+            self.weatherLabel?.alpha = alpha
+            
+            self.transparentView?.alpha = alpha
+        }
     }
     
     @IBAction func backButtonTouchUpInside(_ sender: UIButton) {
         
-        self.navigationController?.popViewController(animated: true)
+        //self.navigationController?.popViewController(animated: true)
+        
+        self.dismiss(animated: true, completion: nil)
     }
 }
 

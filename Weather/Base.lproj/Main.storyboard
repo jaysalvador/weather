@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1fU-ta-LUE">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -24,11 +24,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="WeatherListViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Pat-O2-RFs">
-                                <rect key="frame" x="0.0" y="64" width="667" height="311"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="9Xf-eq-reb">
                                     <size key="itemSize" width="50" height="50"/>
@@ -43,10 +43,10 @@
                                 </connections>
                             </collectionView>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WcN-ut-V5v">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
                                     <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIP-JP-Y0o">
-                                        <rect key="frame" x="0.0" y="0.0" width="667" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KL-kt-BOH">
                                                 <rect key="frame" x="20" y="12.5" width="111" height="35.5"/>
@@ -56,7 +56,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smi-0d-up8">
-                                                <rect key="frame" x="619" y="12" width="40" height="40"/>
+                                                <rect key="frame" x="327" y="12" width="40" height="40"/>
                                                 <subviews>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPJ-fK-c0B">
                                                         <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
@@ -142,14 +142,18 @@
             <objects>
                 <viewController storyboardIdentifier="WeatherDetailViewController" id="b4j-wn-4Kx" customClass="WeatherDetailViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ezy-6M-lbc">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13d" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-zS-Oxs">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="13d" translatesAutoresizingMaskIntoConstraints="NO" id="LZW-zS-Oxs">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mDz-6I-7Ww">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.33000000000000002" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Sydney, AU" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lNW-14-dSf">
-                                <rect key="frame" x="50" y="74" width="263" height="34"/>
+                                <rect key="frame" x="20" y="70" width="335" height="36.5"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -157,7 +161,7 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="25°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBf-kH-oiK">
-                                <rect key="frame" x="50" y="116" width="263" height="143"/>
+                                <rect key="frame" x="96.5" y="114.5" width="182.5" height="143"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="120"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -165,7 +169,7 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSa-QB-q6o">
-                                <rect key="frame" x="333" y="20" width="1" height="335"/>
+                                <rect key="frame" x="36" y="331.5" width="303" height="1"/>
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="JJg-DD-amY"/>
@@ -184,7 +188,7 @@
                                 </variation>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Rain" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evG-Rf-8Or">
-                                <rect key="frame" x="50" y="259" width="263" height="22"/>
+                                <rect key="frame" x="20" y="257.5" width="335" height="24"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -192,13 +196,13 @@
                                 <size key="shadowOffset" width="-1" height="1"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hQ6-Cf-SeS">
-                                <rect key="frame" x="354" y="99.5" width="293" height="176"/>
+                                <rect key="frame" x="20" y="382.5" width="335" height="188"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nVt-Ek-690">
-                                        <rect key="frame" x="0.0" y="0.0" width="141.5" height="176"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="162.5" height="188"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Feels Like" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMe-MG-due">
-                                                <rect key="frame" x="0.0" y="0.0" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -206,7 +210,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="min/max" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8J2-Q1-23W">
-                                                <rect key="frame" x="0.0" y="31" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="33" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -214,7 +218,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Pressure" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc6-L4-eRr">
-                                                <rect key="frame" x="0.0" y="62" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="66" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -222,7 +226,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Humidity" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDV-yZ-vRQ">
-                                                <rect key="frame" x="0.0" y="93" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="99" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -230,7 +234,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunrise" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03m-7F-oHD">
-                                                <rect key="frame" x="0.0" y="124" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="132" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -238,7 +242,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunset" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bk-eH-I1N">
-                                                <rect key="frame" x="0.0" y="155" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="165" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -248,10 +252,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JGi-7O-fDc">
-                                        <rect key="frame" x="151.5" y="0.0" width="141.5" height="176"/>
+                                        <rect key="frame" x="172.5" y="0.0" width="162.5" height="188"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Feels Like" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8o-6t-dnV">
-                                                <rect key="frame" x="0.0" y="0.0" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -259,7 +263,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="min/max" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOK-At-Gur">
-                                                <rect key="frame" x="0.0" y="31" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="33" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -267,7 +271,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Pressure" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4h3-Xq-cys">
-                                                <rect key="frame" x="0.0" y="62" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="66" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -275,7 +279,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Humidity" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brH-Kn-y89">
-                                                <rect key="frame" x="0.0" y="93" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="99" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -283,7 +287,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunrise" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n73-Mr-y2l">
-                                                <rect key="frame" x="0.0" y="124" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="132" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -291,7 +295,7 @@
                                                 <size key="shadowOffset" width="-1" height="1"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Sunset" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crh-ts-Z4y">
-                                                <rect key="frame" x="0.0" y="155" width="141.5" height="21"/>
+                                                <rect key="frame" x="0.0" y="165" width="162.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -303,7 +307,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ev2-2v-ifA">
-                                <rect key="frame" x="0.0" y="20" width="41" height="44"/>
+                                <rect key="frame" x="20" y="20" width="41" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="M19-nw-3Cc"/>
                                     <constraint firstAttribute="width" constant="41" id="NwR-gP-Ugq"/>
@@ -316,7 +320,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="evG-Rf-8Or" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="26j-dr-phV"/>
                             <constraint firstItem="eBf-kH-oiK" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="2j0-Fi-irS"/>
@@ -330,6 +334,7 @@
                             <constraint firstItem="ZSa-QB-q6o" firstAttribute="leading" secondItem="lNW-14-dSf" secondAttribute="trailing" constant="20" id="7Na-1Z-6bM"/>
                             <constraint firstItem="ZSa-QB-q6o" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="7TR-rZ-ros"/>
                             <constraint firstItem="hQ6-Cf-SeS" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="7dl-h0-G2y"/>
+                            <constraint firstAttribute="trailing" secondItem="mDz-6I-7Ww" secondAttribute="trailing" id="7yR-KZ-hko"/>
                             <constraint firstItem="LZW-zS-Oxs" firstAttribute="leading" secondItem="Ezy-6M-lbc" secondAttribute="leading" id="BDj-u1-ky0"/>
                             <constraint firstItem="ev2-2v-ifA" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="20" id="CkT-Ef-eG7"/>
                             <constraint firstItem="eBf-kH-oiK" firstAttribute="top" secondItem="lNW-14-dSf" secondAttribute="bottom" constant="8" id="DPD-q2-FMj"/>
@@ -346,8 +351,10 @@
                             <constraint firstAttribute="bottomMargin" secondItem="ZSa-QB-q6o" secondAttribute="bottom" constant="20" id="NUb-92-e0B"/>
                             <constraint firstItem="i0V-yr-kar" firstAttribute="trailing" secondItem="evG-Rf-8Or" secondAttribute="trailing" constant="20" id="Onp-JW-PkC"/>
                             <constraint firstItem="eBf-kH-oiK" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="OuH-o0-da6"/>
+                            <constraint firstAttribute="bottom" secondItem="mDz-6I-7Ww" secondAttribute="bottom" id="PSV-zJ-UaS"/>
                             <constraint firstItem="hQ6-Cf-SeS" firstAttribute="centerY" secondItem="Ezy-6M-lbc" secondAttribute="centerY" id="ZEL-dj-VBi"/>
                             <constraint firstItem="hQ6-Cf-SeS" firstAttribute="top" secondItem="ZSa-QB-q6o" secondAttribute="bottom" constant="50" id="aIN-h0-zGn"/>
+                            <constraint firstItem="mDz-6I-7Ww" firstAttribute="top" secondItem="Ezy-6M-lbc" secondAttribute="top" id="cwI-CU-jYX"/>
                             <constraint firstAttribute="bottom" secondItem="LZW-zS-Oxs" secondAttribute="bottom" id="dls-e4-xaD"/>
                             <constraint firstItem="lNW-14-dSf" firstAttribute="leading" secondItem="eBf-kH-oiK" secondAttribute="leading" id="dxj-Zp-Bft"/>
                             <constraint firstItem="lNW-14-dSf" firstAttribute="leading" secondItem="i0V-yr-kar" secondAttribute="leading" constant="20" id="fLW-dZ-GbH"/>
@@ -356,6 +363,7 @@
                             <constraint firstItem="lNW-14-dSf" firstAttribute="top" secondItem="i0V-yr-kar" secondAttribute="top" constant="70" id="u4k-6T-Eu6"/>
                             <constraint firstItem="hQ6-Cf-SeS" firstAttribute="leading" secondItem="ZSa-QB-q6o" secondAttribute="trailing" constant="20" id="w2O-5c-XhS"/>
                             <constraint firstItem="LZW-zS-Oxs" firstAttribute="top" secondItem="Ezy-6M-lbc" secondAttribute="top" id="yo3-7D-5S5"/>
+                            <constraint firstItem="mDz-6I-7Ww" firstAttribute="leading" secondItem="Ezy-6M-lbc" secondAttribute="leading" id="zXo-KV-fgp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i0V-yr-kar"/>
                         <variation key="default">
@@ -419,38 +427,42 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isHeroEnabled" value="YES"/>
                     </userDefinedRuntimeAttributes>
                     <connections>
+                        <outlet property="backButton" destination="ev2-2v-ifA" id="0RQ-8r-JW3"/>
+                        <outlet property="detailStackView" destination="hQ6-Cf-SeS" id="qnx-hb-gRk"/>
                         <outlet property="feelsLikeLabel" destination="m8o-6t-dnV" id="tJ5-hh-fc8"/>
                         <outlet property="humidityLabel" destination="brH-Kn-y89" id="1uv-Zr-TgB"/>
                         <outlet property="imageView" destination="LZW-zS-Oxs" id="uXW-nR-O2z"/>
+                        <outlet property="lineView" destination="ZSa-QB-q6o" id="c0O-st-MMi"/>
                         <outlet property="locationLabel" destination="lNW-14-dSf" id="zUz-I8-YEN"/>
                         <outlet property="minMaxLabel" destination="HOK-At-Gur" id="Cs0-g6-mHu"/>
                         <outlet property="pressureLabel" destination="4h3-Xq-cys" id="w4K-FP-T08"/>
                         <outlet property="sunriseLabel" destination="n73-Mr-y2l" id="q5B-P5-gd3"/>
                         <outlet property="sunsetLabel" destination="Crh-ts-Z4y" id="665-MK-1fa"/>
                         <outlet property="tempLabel" destination="eBf-kH-oiK" id="gRf-y0-c9X"/>
+                        <outlet property="transparentView" destination="mDz-6I-7Ww" id="vPw-4N-WQx"/>
                         <outlet property="weatherLabel" destination="evG-Rf-8Or" id="bIY-jp-Ary"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPB-CG-LRU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505.79710144927537" y="791.51785714285711"/>
+            <point key="canvasLocation" x="504.80000000000001" y="791.15442278860576"/>
         </scene>
         <!--Weather Search View Controller-->
         <scene sceneID="vqW-OI-lGv">
             <objects>
                 <viewController storyboardIdentifier="WeatherSearchViewController" id="tmw-vw-inF" customClass="WeatherSearchViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Kfd-GE-gfM">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I9L-wR-Ot7">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IkX-4T-YdZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="667" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a new location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgL-hU-HIM">
-                                                <rect key="frame" x="269" y="23.5" width="129" height="17.5"/>
+                                                <rect key="frame" x="121.5" y="22.5" width="132.5" height="19"/>
                                                 <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
                                                 <color key="textColor" red="0.08235294118" green="0.094117647060000004" blue="0.1176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -503,13 +515,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mO6-WC-r6C">
-                                <rect key="frame" x="0.0" y="64" width="667" height="56"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="56"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iId-p4-9G4">
-                                        <rect key="frame" x="20" y="0.0" width="627" height="40"/>
+                                        <rect key="frame" x="20" y="0.0" width="335" height="40"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter location..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gau-qU-axb">
-                                                <rect key="frame" x="44" y="5" width="563" height="30"/>
+                                                <rect key="frame" x="44" y="5" width="271" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="NtF-Nh-NDV"/>
                                                 </constraints>
@@ -568,7 +580,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-4V-Uav">
-                                <rect key="frame" x="0.0" y="120" width="667" height="255"/>
+                                <rect key="frame" x="0.0" y="120" width="375" height="527"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="WO4-0I-HDT">
                                     <size key="itemSize" width="50" height="50"/>
@@ -612,7 +624,7 @@
             <objects>
                 <navigationController id="1fU-ta-LUE" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hnh-CY-0bC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <userDefinedRuntimeAttributes>

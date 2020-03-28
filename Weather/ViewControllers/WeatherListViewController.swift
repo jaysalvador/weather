@@ -158,7 +158,10 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
         if case .item(let location) = item,
             let vc = WeatherDetailViewController.make(withViewModel: WeatherDetailViewModel(location: location)) {
             
-            self.navigationController?.pushViewController(vc, animated: true)
+            vc.modalPresentationStyle = .fullScreen
+            
+            self.present(vc, animated: true, completion: nil)
+            //self.navigationController?.pushViewController(vc, animated: true)
         }
     }
     
