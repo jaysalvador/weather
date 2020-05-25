@@ -144,7 +144,7 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
     override func collectionView(_ collectionView: UICollectionView, cellForSection section: WeatherListSection, item: WeatherListItem, indexPath: IndexPath) -> UICollectionViewCell? {
         
         if case .item(let location) = item,
-            let cell = self.collectionView?.dequeueReusable(cell: WeatherListCell.self, for: indexPath){
+            let cell = self.collectionView?.dequeueReusable(cell: WeatherListCell.self, for: indexPath) {
             
             return cell.prepare(location: location)
         }

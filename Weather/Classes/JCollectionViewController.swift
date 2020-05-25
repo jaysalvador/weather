@@ -165,7 +165,6 @@ class JCollectionViewController<Section: Equatable, Item: Equatable>: UIViewCont
         // can be overriden
     }
     
-    
     /// High level implementation for `didSelectItemAtSection` to quickly provide the `Section` and `Item` objects easily
     /// - Parameter collectionView: `CollectionView` class
     /// - Parameter section: the current `Section` object
@@ -202,7 +201,6 @@ class JCollectionViewController<Section: Equatable, Item: Equatable>: UIViewCont
     }
     
     // MARK: - Dwifft convenience
-    
     
     /// gets a particular cell based on the given `Section` and `Item`
     /// - Parameter section: the current `Section` object

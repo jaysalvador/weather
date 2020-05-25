@@ -79,7 +79,7 @@ class WeatherListViewModel: WeatherListViewModelProtocol {
         
         if (self.defaultLocationString?.count ?? 0) == 0 {
             
-            self.defaultLocationString = ["2147714","2158177","2174003"]
+            self.defaultLocationString = ["2147714", "2158177", "2174003"]
         }
     }
     

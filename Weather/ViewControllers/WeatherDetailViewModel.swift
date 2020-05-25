@@ -25,5 +25,4 @@ class WeatherDetailViewModel: WeatherDetailViewModelProtocol {
         self.location = _location
     }
     
-    
 }

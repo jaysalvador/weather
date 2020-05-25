@@ -13,7 +13,7 @@ extension UIView {
     // MARK: Inspectables
     
     @IBInspectable
-    var cornerRadius: Float {
+    public var cornerRadius: Float {
         
         set {
             
@@ -26,7 +26,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var borderWidth: Float {
+    public var borderWidth: Float {
         
         set {
             
@@ -39,7 +39,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var borderColor: UIColor? {
+    public var borderColor: UIColor? {
         
         set {
             
@@ -57,7 +57,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var shadowColor: UIColor? {
+    public var shadowColor: UIColor? {
         
         set {
             
@@ -75,7 +75,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var shadowRadius: Float {
+    public var shadowRadius: Float {
         
         set {
             
@@ -88,7 +88,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var shadowOffset: CGSize {
+    public var shadowOffset: CGSize {
         
         set {
             
@@ -101,7 +101,7 @@ extension UIView {
     }
     
     @IBInspectable
-    var shadowOpacity: Float {
+    public var shadowOpacity: Float {
         
         set {
             

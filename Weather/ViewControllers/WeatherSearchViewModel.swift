@@ -90,6 +90,6 @@ class WeatherSearchViewModel: WeatherSearchViewModelProtocol {
                 
                 self?.onError?()
             }
-       }
+        }
     }
 }

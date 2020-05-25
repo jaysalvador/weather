@@ -9,7 +9,7 @@
 import UIKit
 import OpenWeather
 
-typealias WeatherSelectedClosure =  ((Location) -> Void)
+typealias WeatherSelectedClosure = ((Location) -> Void)
 
 enum WeatherSearchSection: Equatable {
     
@@ -90,7 +90,7 @@ class WeatherSearchViewController: JCollectionViewController<WeatherSearchSectio
     override func collectionView(_ collectionView: UICollectionView, cellForSection section: WeatherSearchSection, item: WeatherSearchItem, indexPath: IndexPath) -> UICollectionViewCell? {
         
         if case .item(let location) = item,
-            let cell = self.collectionView?.dequeueReusable(cell: WeatherListCell.self, for: indexPath){
+            let cell = self.collectionView?.dequeueReusable(cell: WeatherListCell.self, for: indexPath) {
             
             return cell.prepare(location: location)
         }

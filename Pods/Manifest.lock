@@ -1,14 +1,17 @@
 PODS:
   - Dwifft (0.9)
   - Hero (1.5.0)
+  - SwiftLint (0.39.1)
 
 DEPENDENCIES:
   - Dwifft (from `https://github.com/jflinter/Dwifft.git`, commit `c5a9c62`)
   - Hero
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - Hero
+    - SwiftLint
 
 EXTERNAL SOURCES:
   Dwifft:
@@ -23,7 +26,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Dwifft: 00dcec0f3c38cfb9c1331509851e81c84fc3949e
   Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
 
-PODFILE CHECKSUM: cc57858e9eaae8d93e22ca379bbaa707c08607c3
+PODFILE CHECKSUM: efe5dfdbb8fb2d91f84a6b9a906abbbea37cb388
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1

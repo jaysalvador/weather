@@ -6,98 +6,132 @@
 	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D7D16C67CBA7A1BFC6E5FFB94B494D /* Array+HeroModifier.swift */; };
+		000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815057B0F33D599A53888F946308708 /* Array+HeroModifier.swift */; };
 		06F0B9A71E0485131F66816718B5840B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
-		0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5174081A6920626DEFD236B5EF1554C /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
-		0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946B603D5F4A4096EF7482CEDDD4F12D /* Lexer.swift */; };
-		0B28AF4E12913AC5EEBAF7499182DF0B /* AbstractDiffCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D26B46670182E17BECA08666CE53E2 /* AbstractDiffCalculator.swift */; };
-		0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D070136D80C4A73E847DC5A65F0756 /* HeroTransition+CustomTransition.swift */; };
-		0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4073551E93979D8D93F38D68BC314212 /* HeroTransition+Animate.swift */; };
+		0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43305A8CB850185DB7978AB92951F27 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		07BE19AA790752898A1E0ED7D5920E57 /* Pods-Weather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB6CCA5FD8C7E543D41AF0AA2FF7DAD /* Pods-Weather-dummy.m */; };
+		0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3E9720F10475C137D6FECDD53D7876 /* Lexer.swift */; };
+		0B28AF4E12913AC5EEBAF7499182DF0B /* AbstractDiffCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBA6D35CD3EBD2637DD75E1E1E2E9E4 /* AbstractDiffCalculator.swift */; };
+		0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806F2EEAEDB2A89610D1095A7D425E78 /* HeroTransition+CustomTransition.swift */; };
+		0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69D17DDCB8BCE66E2AED3A4FF9BE2E1 /* HeroTransition+Animate.swift */; };
 		0E9C18D35E88E7DCA5EBEC5762A1A981 /* Pods-OpenWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2793C1DE6E5D1679BE1A4A917EDFBB5B /* Pods-OpenWeather-dummy.m */; };
-		143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E5EF4CB8771D1EA374212D5C225D23 /* HeroViewControllerDelegate.swift */; };
-		16FAAB6FC92D30959FB66551ABCFCF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
-		1ADD9D0AD5F0657B7809864B756BC155 /* SectionedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCDA89B808FCC3898E0D54ED5DE0040 /* SectionedValues.swift */; };
+		143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0171E2CED78AE23B4FD9CFA5983D6AD /* HeroViewControllerDelegate.swift */; };
+		1ADD9D0AD5F0657B7809864B756BC155 /* SectionedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122F0BF3704E3025CFFF42A30208C301 /* SectionedValues.swift */; };
 		1CE44042F73BA78CD14C0B12D60A446E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */; };
-		28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 141E322C2F0F839814B545051D9861DC /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9AE3D64DDB958FD3E6A778B045F0E0 /* HeroCompatible.swift */; };
-		336F113A85B7EA1CCE001980AFE209E8 /* Pods-Weather-WeatherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE9AD194E56F834D19E498CE89449AF /* Pods-Weather-WeatherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C16D5275F1CF30D6D5DBC0A8CD9287 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92409DA1189956CE4DFF37F9015974E /* HeroCompatible.swift */; };
 		37C289CF48713DAB98845988FF35632C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
 		38297E6B86106DEF51F853B19A64FEFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */; };
-		38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA81ABA81FDF037B8F4FBBC9B1C67CEF /* HeroTransition.swift */; };
-		4452A4C261337D00D753E7E3A12B8506 /* Dwifft+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2078ED09AE4DBCECE118B4840BCE343 /* Dwifft+AppKit.swift */; };
-		4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05FA5B05806148AB0B8F9BE2FB403D /* HeroPlugin.swift */; };
-		4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9603EC3CF35A970AFF466D028BABAF /* HeroTransition+Interactive.swift */; };
-		561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343DBF8C991B20E1A4808D4E55DCFC94 /* HeroStringConvertible.swift */; };
-		565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7742196093133BF934892124F28F0F13 /* HeroViewPropertyViewContext.swift */; };
-		596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EEED232596E0BCF12B2A5966391032 /* CAMediaTimingFunction+Hero.swift */; };
-		5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4ADFCA491AB196AAFB04789AB636DC /* HeroTransitionState.swift */; };
-		611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D78B5D9CD028E175D4457F35949765 /* HeroDefaultAnimator.swift */; };
-		63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496FF5EBF0483BBAD53E663FA59D860 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9868C45E474956F94AFA16D7D5C7B20 /* HeroTransition.swift */; };
+		4452A4C261337D00D753E7E3A12B8506 /* Dwifft+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EFAE47204B310E1FFD55C9C3EA04C7 /* Dwifft+AppKit.swift */; };
+		4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037037594F7CF0A69CD53267017029B0 /* HeroPlugin.swift */; };
+		4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2BB45B0CF797EE1FC63BC1C53ECCA1 /* HeroTransition+Interactive.swift */; };
+		561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11846FA225647E3A1CA6E47D474BA30 /* HeroStringConvertible.swift */; };
+		565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A4D790AB8EE4C814CD0A3811A8344 /* HeroViewPropertyViewContext.swift */; };
+		596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2FD254C4B815964687253E9272D942 /* CAMediaTimingFunction+Hero.swift */; };
+		5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D32F062AEB63C80B12E7DA04ADBB620 /* HeroTransitionState.swift */; };
+		611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E819596D202BD710BEDA5063584E476 /* HeroDefaultAnimator.swift */; };
+		63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692F81AF9BCA02CA818A7D78AB2392A8 /* HeroTransition+UITabBarControllerDelegate.swift */; };
 		69E49A01811CF8FA1FE92981ABB9067F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
-		6D814A3704C7F7F3AB894744C5F7D64B /* Pods-Weather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEEC3E0C9BD7C471703DD5161B35B2C /* Pods-Weather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A507D0CB4F33FCCD077258A67E71ADB4 /* MatchPreprocessor.swift */; };
-		76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5510ED6ABB9736AFFBC0F34F4D334CCB /* HeroModifier+HeroStringConvertible.swift */; };
+		7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD89D3E116076B4BD7782F07B260363 /* MatchPreprocessor.swift */; };
+		76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AD4B9C9E5EB0046EB74288F6493187 /* HeroModifier+HeroStringConvertible.swift */; };
+		7716F6F6D6E71A1FEAC0ACAF899483ED /* Pods-Weather-WeatherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE9AD194E56F834D19E498CE89449AF /* Pods-Weather-WeatherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77727575626BC32FC9E1954FF6F163B5 /* Pods-WeatherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C77BB7CF673AC249C186745DA43472 /* Pods-WeatherTests-dummy.m */; };
-		783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C27DBF020E7D9A74C4EE98B32C2A7A /* HeroTransition+UINavigationControllerDelegate.swift */; };
-		7D98B888ACA1822CD885AE930EB9F1DA /* Dwifft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC305E5B11B4ED9332D9D2114FA0ED7B /* Dwifft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE352AE858FBACA960376CE1F3A28377 /* SourcePreprocessor.swift */; };
-		8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F731CF639A6AD362CEC9FD26BE5EF8F8 /* HeroModifier+Advanced.swift */; };
-		85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3923DFEABAF5ECB14EBE8AA54231B900 /* UIColor+HexString.swift */; };
-		8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B98E12953627C2FD56D2FAD4AA5EBA /* CG+Hero.swift */; };
-		86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934AC95F90969B93E82204BE2777F43A /* HeroDebugView.swift */; };
-		894969C74BE3934962FF7FCBBC0BF161 /* Dwifft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44918529F524534FF1A78A1B9417864D /* Dwifft.swift */; };
-		89B951A18C14B12409074BBAC5194D29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
-		8F958A757695F959363483AF5B109D64 /* Dwifft+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAAF563CC4995A7AAFF3F57F6B04C12 /* Dwifft+UIKit.swift */; };
-		971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553952DEA95E434F947BF1A419D81383 /* BasePreprocessor.swift */; };
-		981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD3CA80A7232B7EB319FB2D78E3F79 /* CascadePreprocessor.swift */; };
+		783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F1D541D5D10F51E548CAA6ABD8D44 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		7D98B888ACA1822CD885AE930EB9F1DA /* Dwifft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2250C5E3EDEFE14AEEA4B18A894D17D0 /* Dwifft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E728E1A7957066214EB5C245CA35CE2 /* Pods-Weather-WeatherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CC21D334C669148B554102FD93BAC5 /* Pods-Weather-WeatherUITests-dummy.m */; };
+		80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09282D4B4B79CDB4BAF9EEEA7B7AD686 /* SourcePreprocessor.swift */; };
+		8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D97C76B20E0B18D666231A7B18094BC /* HeroModifier+Advanced.swift */; };
+		85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20098B67275E2A0D46E2CFE13D46B7 /* UIColor+HexString.swift */; };
+		8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8156FD353564BD20392E300B63056E18 /* CG+Hero.swift */; };
+		86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECAE90BCC8C7545408FB3E909D14034 /* HeroDebugView.swift */; };
+		894969C74BE3934962FF7FCBBC0BF161 /* Dwifft.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC082441AB4EE26EB4D0728BD1EB79 /* Dwifft.swift */; };
+		8F958A757695F959363483AF5B109D64 /* Dwifft+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C09F360624F1B364712EC7153603879 /* Dwifft+UIKit.swift */; };
+		906F9C7C6C9B1AE88CC3B5ACBB654023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ECFEEF2361460ABA513D2BE710389B /* BasePreprocessor.swift */; };
+		981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766C1854BCF43B40FECC22F9793DD9CD /* CascadePreprocessor.swift */; };
 		98F608F6618499B97E71483FF63634B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
-		9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B3F8A5A9DE224D10459E2333130378 /* Nodes.swift */; };
+		9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BF8EF48B9014286F2F4A3893A1BF2 /* Nodes.swift */; };
+		9C44AE3383BEB6F219BD354443F7ECE0 /* Pods-Weather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEEC3E0C9BD7C471703DD5161B35B2C /* Pods-Weather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E5125F1B212CB864D3AE6FEC56684CF /* Pods-WeatherTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3D202DC53A7E33C1FEF02B9945F7C3 /* Pods-WeatherTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7EED7662963159D2232F5B3555984 /* SwiftSupport.swift */; };
-		AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65C0800880264EAFC2233600C877491 /* DispatchQueue+Hero.swift */; };
-		AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F455B2802774E620C36EB7528362BDC2 /* HeroAnimatorViewContext.swift */; };
-		B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A957C4FB924C7EAD2C5A0832F4403C /* DefaultAnimationPreprocessor.swift */; };
-		B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429143D8311C195CD0BA122CFDADA149 /* Parser.swift */; };
-		B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D076633D620AB349EAD9E5F181106 /* HeroModifier.swift */; };
-		BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD034EFAFD03D575F331A63505CCD982 /* HeroContext.swift */; };
+		A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6BF1BA6A2ABA58C5AB7E30CBD647E7 /* SwiftSupport.swift */; };
+		AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0A1B5D812D3F8AC00F3454F19949E8 /* DispatchQueue+Hero.swift */; };
+		AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3482A3010620B0173AE149879B9762ED /* HeroAnimatorViewContext.swift */; };
+		B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14D7B910F45B596A750C47CDCB3510E /* DefaultAnimationPreprocessor.swift */; };
+		B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA720B7C9B387D50D1BE624F2745C2 /* Parser.swift */; };
+		B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E0E018B5017B0DD5FC6215FE6DEC5D /* HeroModifier.swift */; };
+		BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457ECC321F893CE0B55DA216E36BFA7 /* HeroContext.swift */; };
 		BD453A8F87A9936694903756BB9CFC7C /* Pods-OpenWeather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF954B14944CA19A5B523AC446EE58B /* Pods-OpenWeather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 341A576117D1128A6D7EA57690889763 /* Hero-dummy.m */; };
-		C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68943862CDCE764F94FB0F2CD232A57 /* HeroProgressRunner.swift */; };
-		C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D1C62A11595D76E83F2CDBB3F57B5 /* HeroCoreAnimationViewContext.swift */; };
-		D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47FF8AC57CB7CB31D59D7E987A6D652 /* HeroTransition+Complete.swift */; };
-		D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E0827C2989973EDA20C84C711BEE5 /* UIViewController+Hero.swift */; };
-		D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B35C043A22FA9BC4FBEC6E7C8F71CA /* UIView+Hero.swift */; };
-		DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D74C94D6BEF35B5984AFB62773B537 /* HeroTypes.swift */; };
-		DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222A05537262A76EC29C2AC0F317ABDF /* HeroTransition+Start.swift */; };
-		DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E739EA543C3518CF57729E888758467 /* CALayer+Hero.swift */; };
+		BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060AF75E2AB3706440B277128D7AA97 /* Hero-dummy.m */; };
+		C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDB5D9F169AE791EF1722339AA1BDC9 /* HeroProgressRunner.swift */; };
+		C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2777C8257C22DEA7C805B51576F2E84 /* HeroCoreAnimationViewContext.swift */; };
+		D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A8AB036D6389E76F002D7BF2D64A9D /* HeroTransition+Complete.swift */; };
+		D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D9C4502C6B91ADF19F68B739418A65 /* UIViewController+Hero.swift */; };
+		D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDFA0B675F0B14A03901A5FB6AAE04 /* UIView+Hero.swift */; };
+		DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E2FF07F3A51BE41604B55E5CEB0A4A /* HeroTypes.swift */; };
+		DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F6F187EDE4964DB5837704D422FCB0 /* HeroTransition+Start.swift */; };
+		DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3438E8300336E65CAAD15A838E8AF78A /* CALayer+Hero.swift */; };
 		DD6F354D687662E88A8E9B75ADF0EE95 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */; };
-		DF3B83C81214CC3290255C922E55DDF1 /* Dwifft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC78C174E04F6A45CAF5E8F1DDB27B29 /* Dwifft-dummy.m */; };
-		E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92E181687443073577AD6FAA587D092 /* UIKit+Hero.swift */; };
-		E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6C253385BF5BF4FDC3CB9B10F8F87B /* ConditionalPreprocessor.swift */; };
-		E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA39E2294530FB34506526C7C40D9A7 /* HeroTargetState.swift */; };
-		E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B4DA98D1D7692621B3798DBB9C6657 /* IgnoreSubviewModifiersPreprocessor.swift */; };
-		F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A7C46D204A90139A3223A93FCCD12 /* Regex.swift */; };
-		F57A3848FA6707E7388983ED95AD25A8 /* Pods-Weather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB6CCA5FD8C7E543D41AF0AA2FF7DAD /* Pods-Weather-dummy.m */; };
-		F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D971A0BAABE1BCAEF9B5957C7DCCDCB6 /* HeroDebugPlugin.swift */; };
+		DF3B83C81214CC3290255C922E55DDF1 /* Dwifft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E3C3EC1B1C83440A5FF40027C3EC5 /* Dwifft-dummy.m */; };
+		E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DDD8D24F83E4DE52573FF8A55181FE /* UIKit+Hero.swift */; };
+		E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D59D5B65DBA5FCCE9B16C66F4BFE6 /* ConditionalPreprocessor.swift */; };
+		E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5654779BE0A4FFCB36545640D19D2219 /* HeroTargetState.swift */; };
+		E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4776EDCE95FD163E3715A678D192BE /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38027AF8C16A5B3D779AC46F53D4E44F /* Regex.swift */; };
+		F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3B3771666162828D237216F2CEBF7 /* HeroDebugPlugin.swift */; };
+		F74F1168AB99F1FB1066200CDDD4BBD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
 		FCD1BDD7A5206F43EE5EA0F116BFD7BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */; };
-		FCD80C71907FD3ADFB0FB5B584FF93DE /* Pods-Weather-WeatherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CC21D334C669148B554102FD93BAC5 /* Pods-Weather-WeatherUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EA0A5A672488255E4E205A977EBDE3D /* PBXContainerItemProxy */ = {
+		0362F90EFAE31AC66271828C1038E4B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4255A53C9FC46E2A6605D689307219F6;
+			remoteInfo = Dwifft;
+		};
+		46D690AF529A64D20108A56912A239AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
 			remoteInfo = Hero;
 		};
-		3C0D04D5CB8CABFC4127D3B78C9D7DDB /* PBXContainerItemProxy */ = {
+		4D5DAE81360E487DD42B6FD7A956B55B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4255A53C9FC46E2A6605D689307219F6;
 			remoteInfo = Dwifft;
+		};
+		7AE1D7FF1E27AECF8C0B61490A22D653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
+			remoteInfo = Hero;
+		};
+		947F1C6B23BFDB778426FE97AF401572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 		9C0B49BDE2F92AF74B708A6A07F28AEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,134 +140,131 @@
 			remoteGlobalIDString = 10B99686003B4D8467D8513296D055FE;
 			remoteInfo = "Pods-Weather";
 		};
-		ABB096327D4CD2C8AF957F72BA2EB728 /* PBXContainerItemProxy */ = {
+		B0E61DBAC4ECD179AF63F9B02DA2F3FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
-			remoteInfo = Hero;
-		};
-		EB467DC8F48F2ADC9A3200BF80A22044 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4255A53C9FC46E2A6605D689307219F6;
-			remoteInfo = Dwifft;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037037594F7CF0A69CD53267017029B0 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		09282D4B4B79CDB4BAF9EEEA7B7AD686 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
 		0DCD6A85504A89F5484EE2C6926E0DBB /* Pods-Weather-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-Info.plist"; sourceTree = "<group>"; };
-		0E9022D79DDB17C9951903A6401F02BA /* Pods_OpenWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenWeather.framework; path = "Pods-OpenWeather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		11A957C4FB924C7EAD2C5A0832F4403C /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		0E819596D202BD710BEDA5063584E476 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		0E9022D79DDB17C9951903A6401F02BA /* Pods_OpenWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		122F0BF3704E3025CFFF42A30208C301 /* SectionedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedValues.swift; path = Dwifft/SectionedValues.swift; sourceTree = "<group>"; };
 		13CC21D334C669148B554102FD93BAC5 /* Pods-Weather-WeatherUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather-WeatherUITests-dummy.m"; sourceTree = "<group>"; };
-		13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		141E322C2F0F839814B545051D9861DC /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		1A4ADFCA491AB196AAFB04789AB636DC /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		16A9CABFA91FB0D2853899B7CA494A04 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		186A4D790AB8EE4C814CD0A3811A8344 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		1A20098B67275E2A0D46E2CFE13D46B7 /* UIColor+HexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Sources/Extensions/UIColor+HexString.swift"; sourceTree = "<group>"; };
+		1A2BB45B0CF797EE1FC63BC1C53ECCA1 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
 		1AF954B14944CA19A5B523AC446EE58B /* Pods-OpenWeather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenWeather-umbrella.h"; sourceTree = "<group>"; };
-		222A05537262A76EC29C2AC0F317ABDF /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
-		23B4DA98D1D7692621B3798DBB9C6657 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
-		26B35C043A22FA9BC4FBEC6E7C8F71CA /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		1B509F61F3DCF6EBDA939F290A379A56 /* Hero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.release.xcconfig; sourceTree = "<group>"; };
+		1CD89D3E116076B4BD7782F07B260363 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		1E3EF2D8B10500CE50EF732C308C8B57 /* Dwifft-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-prefix.pch"; sourceTree = "<group>"; };
+		1ECAE90BCC8C7545408FB3E909D14034 /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		2060AF75E2AB3706440B277128D7AA97 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		2250C5E3EDEFE14AEEA4B18A894D17D0 /* Dwifft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-umbrella.h"; sourceTree = "<group>"; };
 		277DDDCE8E606BD4E95A4CF59EDFED6C /* Pods-Weather-WeatherUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather-WeatherUITests.modulemap"; sourceTree = "<group>"; };
 		2793C1DE6E5D1679BE1A4A917EDFBB5B /* Pods-OpenWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenWeather-dummy.m"; sourceTree = "<group>"; };
-		2959BC34C89B9F61295BB8281303D50F /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
 		2DE5AA0B634E600481ACF204CC693866 /* Pods-OpenWeather-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeather-Info.plist"; sourceTree = "<group>"; };
 		2DE9AD194E56F834D19E498CE89449AF /* Pods-Weather-WeatherUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather-WeatherUITests-umbrella.h"; sourceTree = "<group>"; };
+		2E9F1D541D5D10F51E548CAA6ABD8D44 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
 		329B55EEB0D6AF05CD771502C7935191 /* Pods-Weather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather.release.xcconfig"; sourceTree = "<group>"; };
-		341A576117D1128A6D7EA57690889763 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
-		343DBF8C991B20E1A4808D4E55DCFC94 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
-		353D5D37AE263B2D21385B36167E09D3 /* Dwifft-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dwifft-Info.plist"; sourceTree = "<group>"; };
-		37E156B6B8FAFEAF8F05273F558DD2BB /* Hero.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.xcconfig; sourceTree = "<group>"; };
-		3923DFEABAF5ECB14EBE8AA54231B900 /* UIColor+HexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Sources/Extensions/UIColor+HexString.swift"; sourceTree = "<group>"; };
-		4073551E93979D8D93F38D68BC314212 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
-		429143D8311C195CD0BA122CFDADA149 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
-		44918529F524534FF1A78A1B9417864D /* Dwifft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dwifft.swift; path = Dwifft/Dwifft.swift; sourceTree = "<group>"; };
-		44D070136D80C4A73E847DC5A65F0756 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		3438E8300336E65CAAD15A838E8AF78A /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		3482A3010620B0173AE149879B9762ED /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		38027AF8C16A5B3D779AC46F53D4E44F /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		3B0A1B5D812D3F8AC00F3454F19949E8 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		3C09F360624F1B364712EC7153603879 /* Dwifft+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+UIKit.swift"; path = "Dwifft/Dwifft+UIKit.swift"; sourceTree = "<group>"; };
+		46A8AB036D6389E76F002D7BF2D64A9D /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
 		46C299C90571AFE7C8171D053B2D693D /* Pods-Weather-WeatherUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Weather-WeatherUITests-frameworks.sh"; sourceTree = "<group>"; };
-		49D7D16C67CBA7A1BFC6E5FFB94B494D /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
-		4BBD3CA80A7232B7EB319FB2D78E3F79 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
-		4CECED3294E401E6F6355B401144109A /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Weather.framework; path = "Pods-Weather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5510ED6ABB9736AFFBC0F34F4D334CCB /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
-		553952DEA95E434F947BF1A419D81383 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		479D59D5B65DBA5FCCE9B16C66F4BFE6 /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		47D9C4502C6B91ADF19F68B739418A65 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		4CECED3294E401E6F6355B401144109A /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AAFE8A260B9C0015711097E31D1CA0 /* Pods-OpenWeather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenWeather.modulemap"; sourceTree = "<group>"; };
-		57E4BD1C78FDF350E9D57CB55AB2E7DC /* Dwifft-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-prefix.pch"; sourceTree = "<group>"; };
+		5654779BE0A4FFCB36545640D19D2219 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
 		5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D97C76B20E0B18D666231A7B18094BC /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+Advanced.swift"; path = "Sources/HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
+		5EBA6D35CD3EBD2637DD75E1E1E2E9E4 /* AbstractDiffCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractDiffCalculator.swift; path = Dwifft/AbstractDiffCalculator.swift; sourceTree = "<group>"; };
 		5EF8EA3050833D134C46EF09A1149A09 /* Pods-Weather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-acknowledgements.plist"; sourceTree = "<group>"; };
 		60B885BE32C348596919E73F10426B62 /* Pods-OpenWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		656E0827C2989973EDA20C84C711BEE5 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
-		67B3F8A5A9DE224D10459E2333130378 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
-		68EEED232596E0BCF12B2A5966391032 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
-		6E739EA543C3518CF57729E888758467 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		692F81AF9BCA02CA818A7D78AB2392A8 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		69C8C3EF816BB377CA9B5D30536E25FC /* Dwifft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dwifft.release.xcconfig; sourceTree = "<group>"; };
+		6AEDFA0B675F0B14A03901A5FB6AAE04 /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		6C2FD254C4B815964687253E9272D942 /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		6D4776EDCE95FD163E3715A678D192BE /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
 		71C77BB7CF673AC249C186745DA43472 /* Pods-WeatherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherTests-dummy.m"; sourceTree = "<group>"; };
+		71D3B3771666162828D237216F2CEBF7 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
 		74283300E17AEE5DF3AE12F4892C0581 /* Pods-WeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
-		749832EA9BC1033509CB404B01AF4F1A /* Pods_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WeatherTests.framework; path = "Pods-WeatherTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7742196093133BF934892124F28F0F13 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
-		77D78B5D9CD028E175D4457F35949765 /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
-		79CCA53FDB7C6AF3C4C09BD89900342A /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		749832EA9BC1033509CB404B01AF4F1A /* Pods_WeatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		766C1854BCF43B40FECC22F9793DD9CD /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		7D6BF1BA6A2ABA58C5AB7E30CBD647E7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = Sources/SwiftSupport.swift; sourceTree = "<group>"; };
 		7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		80B98E12953627C2FD56D2FAD4AA5EBA /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
-		848A7C46D204A90139A3223A93FCCD12 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
-		8C3018D3FECE1B523519B89BF50D65D4 /* Dwifft.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dwifft.xcconfig; sourceTree = "<group>"; };
-		8C6C253385BF5BF4FDC3CB9B10F8F87B /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		806F2EEAEDB2A89610D1095A7D425E78 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		8156FD353564BD20392E300B63056E18 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		82EA720B7C9B387D50D1BE624F2745C2 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		82ECFEEF2361460ABA513D2BE710389B /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		84B2ABE075C9CFF590C81F6E52A0E42C /* Dwifft-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dwifft-Info.plist"; sourceTree = "<group>"; };
+		8B77707CA9AEA15DBF5CD90E8852BC4A /* Hero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hero-Info.plist"; sourceTree = "<group>"; };
 		8D0E9731A2A487568C40D40538B5CBCA /* Pods-OpenWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8D9AE3D64DDB958FD3E6A778B045F0E0 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
-		90D26B46670182E17BECA08666CE53E2 /* AbstractDiffCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractDiffCalculator.swift; path = Dwifft/AbstractDiffCalculator.swift; sourceTree = "<group>"; };
-		934AC95F90969B93E82204BE2777F43A /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
-		940D076633D620AB349EAD9E5F181106 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
-		946B603D5F4A4096EF7482CEDDD4F12D /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		8D32F062AEB63C80B12E7DA04ADBB620 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
 		98DD5A9585C99699E442E8B4A5BAD8E6 /* Pods-WeatherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		99C16D5275F1CF30D6D5DBC0A8CD9287 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
 		9AD8746FDF62C7E9DA6A1040966B07EA /* Pods-OpenWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenWeather.release.xcconfig"; sourceTree = "<group>"; };
 		9D596024A28C6C4DD21486260DFD7482 /* Pods-Weather-WeatherUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather-WeatherUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DEEC3E0C9BD7C471703DD5161B35B2C /* Pods-Weather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Weather-umbrella.h"; sourceTree = "<group>"; };
 		9FF95E7EC01FA09B28A129297E510CEF /* Pods-Weather-WeatherUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-WeatherUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A11846FA225647E3A1CA6E47D474BA30 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
 		A2F431C0C55310415D8F7C1D76C98930 /* Pods-Weather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather.debug.xcconfig"; sourceTree = "<group>"; };
+		A457ECC321F893CE0B55DA216E36BFA7 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
 		A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4E81435E45FF78EA7A34F7188B418D5 /* Pods-WeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherTests.release.xcconfig"; sourceTree = "<group>"; };
-		A507D0CB4F33FCCD077258A67E71ADB4 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
-		A5174081A6920626DEFD236B5EF1554C /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		A69D17DDCB8BCE66E2AED3A4FF9BE2E1 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
 		A8E1ED9B37D4D31A6DAFCE6A1FB605A9 /* Pods-Weather-WeatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-WeatherUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A92E181687443073577AD6FAA587D092 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
-		AA81ABA81FDF037B8F4FBBC9B1C67CEF /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
 		AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		ABB6CCA5FD8C7E543D41AF0AA2FF7DAD /* Pods-Weather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Weather-dummy.m"; sourceTree = "<group>"; };
-		B1E7EED7662963159D2232F5B3555984 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = Sources/SwiftSupport.swift; sourceTree = "<group>"; };
-		B56D1C62A11595D76E83F2CDBB3F57B5 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
-		B65C0800880264EAFC2233600C877491 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
-		BAAAF563CC4995A7AAFF3F57F6B04C12 /* Dwifft+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+UIKit.swift"; path = "Dwifft/Dwifft+UIKit.swift"; sourceTree = "<group>"; };
+		B6E2FF07F3A51BE41604B55E5CEB0A4A /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		B92409DA1189956CE4DFF37F9015974E /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		B9868C45E474956F94AFA16D7D5C7B20 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
 		BAEE9A8C1FB6ECF16E6DDD7FF510E2BA /* Pods-Weather-WeatherUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Weather-WeatherUITests-Info.plist"; sourceTree = "<group>"; };
-		BC78C174E04F6A45CAF5E8F1DDB27B29 /* Dwifft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dwifft-dummy.m"; sourceTree = "<group>"; };
-		BDCDA89B808FCC3898E0D54ED5DE0040 /* SectionedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionedValues.swift; path = Dwifft/SectionedValues.swift; sourceTree = "<group>"; };
 		BE172C8FBA743D2C1F2DEAE2FEB7C3FE /* Pods-Weather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Weather-frameworks.sh"; sourceTree = "<group>"; };
-		C2D6D752896DC9B5C54A143DF8618021 /* Hero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hero-Info.plist"; sourceTree = "<group>"; };
+		BE3E9720F10475C137D6FECDD53D7876 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		C3ACA7CC3338808D83F3D917A9694E4D /* Dwifft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dwifft.modulemap; sourceTree = "<group>"; };
+		C3DDD8D24F83E4DE52573FF8A55181FE /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		C43305A8CB850185DB7978AB92951F27 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		C5218EA7C612033D202008881278E99D /* Dwifft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dwifft.debug.xcconfig; sourceTree = "<group>"; };
+		C69C815742A13215ABC884531970422D /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		C8EC59A6903A68A3DB5A3EACB8E1738A /* Pods-Weather-WeatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Weather-WeatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBFE4264294ECDA80890669EECEF96DB /* Pods-WeatherTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTests-Info.plist"; sourceTree = "<group>"; };
-		CC05FA5B05806148AB0B8F9BE2FB403D /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
 		CD3C85E6F18890A4BBC47720A57536E8 /* Pods-Weather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Weather-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE352AE858FBACA960376CE1F3A28377 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
-		D1C27DBF020E7D9A74C4EE98B32C2A7A /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		D0171E2CED78AE23B4FD9CFA5983D6AD /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
 		D224E3CD0BE483502439DA595FCFB7F2 /* Pods-Weather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Weather.modulemap"; sourceTree = "<group>"; };
 		D6DCC8D47296EAD36E67475C05345E28 /* Pods-WeatherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D971A0BAABE1BCAEF9B5957C7DCCDCB6 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
-		D9D74C94D6BEF35B5984AFB62773B537 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
 		DA3D202DC53A7E33C1FEF02B9945F7C3 /* Pods-WeatherTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherTests-umbrella.h"; sourceTree = "<group>"; };
-		DC305E5B11B4ED9332D9D2114FA0ED7B /* Dwifft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dwifft-umbrella.h"; sourceTree = "<group>"; };
 		DD16F954FAC4BB3B6C4DD1E1CEEBF061 /* Pods-OpenWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenWeather-acknowledgements.plist"; sourceTree = "<group>"; };
-		DED66B9984BA470575B4E2571621366B /* Pods_Weather_WeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Weather_WeatherUITests.framework; path = "Pods-Weather-WeatherUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E496FF5EBF0483BBAD53E663FA59D860 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
-		E68943862CDCE764F94FB0F2CD232A57 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
-		E9E5EF4CB8771D1EA374212D5C225D23 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
-		ED9603EC3CF35A970AFF466D028BABAF /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
-		F2078ED09AE4DBCECE118B4840BCE343 /* Dwifft+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+AppKit.swift"; path = "Dwifft/Dwifft+AppKit.swift"; sourceTree = "<group>"; };
+		DED66B9984BA470575B4E2571621366B /* Pods_Weather_WeatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather_WeatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF74CB9FE1789715182C7EDE436AC2 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		E2E0E018B5017B0DD5FC6215FE6DEC5D /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		E3F6F187EDE4964DB5837704D422FCB0 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		E4EC082441AB4EE26EB4D0728BD1EB79 /* Dwifft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dwifft.swift; path = Dwifft/Dwifft.swift; sourceTree = "<group>"; };
+		E6EFAE47204B310E1FFD55C9C3EA04C7 /* Dwifft+AppKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Dwifft+AppKit.swift"; path = "Dwifft/Dwifft+AppKit.swift"; sourceTree = "<group>"; };
+		E74BF8EF48B9014286F2F4A3893A1BF2 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		EBDB5D9F169AE791EF1722339AA1BDC9 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		F012A25718A5D1775C0E62ABED8AC061 /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		F14D7B910F45B596A750C47CDCB3510E /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		F2777C8257C22DEA7C805B51576F2E84 /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
 		F3CF019977524A791C4999D3718D98E8 /* Pods-WeatherTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherTests.modulemap"; sourceTree = "<group>"; };
-		F455B2802774E620C36EB7528362BDC2 /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
-		F47FF8AC57CB7CB31D59D7E987A6D652 /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
-		F731CF639A6AD362CEC9FD26BE5EF8F8 /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+Advanced.swift"; path = "Sources/HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
-		FD034EFAFD03D575F331A63505CCD982 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
-		FF024DCEACF139617EC596C45282C2F1 /* Dwifft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dwifft.framework; path = Dwifft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF69625C327F5735C19FAE3E643C563A /* Dwifft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dwifft.modulemap; sourceTree = "<group>"; };
-		FFA39E2294530FB34506526C7C40D9A7 /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		F815057B0F33D599A53888F946308708 /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		F9AD4B9C9E5EB0046EB74288F6493187 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		FAECF32DB4F14C0A64998AA299D2A2B2 /* Hero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.debug.xcconfig; sourceTree = "<group>"; };
+		FF024DCEACF139617EC596C45282C2F1 /* Dwifft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dwifft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3E3C3EC1B1C83440A5FF40027C3EC5 /* Dwifft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dwifft-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,11 +276,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1074742FA195B2E644BE2BE6A21FDDF3 /* Frameworks */ = {
+		31AD18FCDBF2B1EDE5C4F58641AFA9D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FAAB6FC92D30959FB66551ABCFCF1F /* Foundation.framework in Frameworks */,
+				906F9C7C6C9B1AE88CC3B5ACBB654023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E41B9B95FDB6F4838BEBEDE74BE8D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74F1168AB99F1FB1066200CDDD4BBD4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +320,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE15A4DF63168E17E2EFCAC4EFA1BE59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89B951A18C14B12409074BBAC5194D29 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -302,6 +333,21 @@
 				A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		29C0CD072EC522CDC04E44B95495B313 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF74CB9FE1789715182C7EDE436AC2 /* Hero.modulemap */,
+				2060AF75E2AB3706440B277128D7AA97 /* Hero-dummy.m */,
+				8B77707CA9AEA15DBF5CD90E8852BC4A /* Hero-Info.plist */,
+				16A9CABFA91FB0D2853899B7CA494A04 /* Hero-prefix.pch */,
+				99C16D5275F1CF30D6D5DBC0A8CD9287 /* Hero-umbrella.h */,
+				FAECF32DB4F14C0A64998AA299D2A2B2 /* Hero.debug.xcconfig */,
+				1B509F61F3DCF6EBDA939F290A379A56 /* Hero.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
 			sourceTree = "<group>";
 		};
 		357E24BE07EFAC71DA6376A208392CBB /* Pods-Weather */ = {
@@ -337,89 +383,83 @@
 			path = "Target Support Files/Pods-WeatherTests";
 			sourceTree = "<group>";
 		};
-		5C9742BCE66CF14C9CAEF60AA5D94FD7 /* Hero */ = {
+		6653422FC9E211AFFAC7DA76865ED4B6 /* Dwifft */ = {
 			isa = PBXGroup;
 			children = (
-				49D7D16C67CBA7A1BFC6E5FFB94B494D /* Array+HeroModifier.swift */,
-				553952DEA95E434F947BF1A419D81383 /* BasePreprocessor.swift */,
-				6E739EA543C3518CF57729E888758467 /* CALayer+Hero.swift */,
-				68EEED232596E0BCF12B2A5966391032 /* CAMediaTimingFunction+Hero.swift */,
-				4BBD3CA80A7232B7EB319FB2D78E3F79 /* CascadePreprocessor.swift */,
-				80B98E12953627C2FD56D2FAD4AA5EBA /* CG+Hero.swift */,
-				8C6C253385BF5BF4FDC3CB9B10F8F87B /* ConditionalPreprocessor.swift */,
-				11A957C4FB924C7EAD2C5A0832F4403C /* DefaultAnimationPreprocessor.swift */,
-				B65C0800880264EAFC2233600C877491 /* DispatchQueue+Hero.swift */,
-				F455B2802774E620C36EB7528362BDC2 /* HeroAnimatorViewContext.swift */,
-				8D9AE3D64DDB958FD3E6A778B045F0E0 /* HeroCompatible.swift */,
-				FD034EFAFD03D575F331A63505CCD982 /* HeroContext.swift */,
-				B56D1C62A11595D76E83F2CDBB3F57B5 /* HeroCoreAnimationViewContext.swift */,
-				D971A0BAABE1BCAEF9B5957C7DCCDCB6 /* HeroDebugPlugin.swift */,
-				934AC95F90969B93E82204BE2777F43A /* HeroDebugView.swift */,
-				77D78B5D9CD028E175D4457F35949765 /* HeroDefaultAnimator.swift */,
-				940D076633D620AB349EAD9E5F181106 /* HeroModifier.swift */,
-				F731CF639A6AD362CEC9FD26BE5EF8F8 /* HeroModifier+Advanced.swift */,
-				5510ED6ABB9736AFFBC0F34F4D334CCB /* HeroModifier+HeroStringConvertible.swift */,
-				CC05FA5B05806148AB0B8F9BE2FB403D /* HeroPlugin.swift */,
-				E68943862CDCE764F94FB0F2CD232A57 /* HeroProgressRunner.swift */,
-				343DBF8C991B20E1A4808D4E55DCFC94 /* HeroStringConvertible.swift */,
-				FFA39E2294530FB34506526C7C40D9A7 /* HeroTargetState.swift */,
-				AA81ABA81FDF037B8F4FBBC9B1C67CEF /* HeroTransition.swift */,
-				4073551E93979D8D93F38D68BC314212 /* HeroTransition+Animate.swift */,
-				F47FF8AC57CB7CB31D59D7E987A6D652 /* HeroTransition+Complete.swift */,
-				44D070136D80C4A73E847DC5A65F0756 /* HeroTransition+CustomTransition.swift */,
-				ED9603EC3CF35A970AFF466D028BABAF /* HeroTransition+Interactive.swift */,
-				222A05537262A76EC29C2AC0F317ABDF /* HeroTransition+Start.swift */,
-				D1C27DBF020E7D9A74C4EE98B32C2A7A /* HeroTransition+UINavigationControllerDelegate.swift */,
-				E496FF5EBF0483BBAD53E663FA59D860 /* HeroTransition+UITabBarControllerDelegate.swift */,
-				A5174081A6920626DEFD236B5EF1554C /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
-				1A4ADFCA491AB196AAFB04789AB636DC /* HeroTransitionState.swift */,
-				D9D74C94D6BEF35B5984AFB62773B537 /* HeroTypes.swift */,
-				E9E5EF4CB8771D1EA374212D5C225D23 /* HeroViewControllerDelegate.swift */,
-				7742196093133BF934892124F28F0F13 /* HeroViewPropertyViewContext.swift */,
-				23B4DA98D1D7692621B3798DBB9C6657 /* IgnoreSubviewModifiersPreprocessor.swift */,
-				946B603D5F4A4096EF7482CEDDD4F12D /* Lexer.swift */,
-				A507D0CB4F33FCCD077258A67E71ADB4 /* MatchPreprocessor.swift */,
-				67B3F8A5A9DE224D10459E2333130378 /* Nodes.swift */,
-				429143D8311C195CD0BA122CFDADA149 /* Parser.swift */,
-				848A7C46D204A90139A3223A93FCCD12 /* Regex.swift */,
-				CE352AE858FBACA960376CE1F3A28377 /* SourcePreprocessor.swift */,
-				B1E7EED7662963159D2232F5B3555984 /* SwiftSupport.swift */,
-				3923DFEABAF5ECB14EBE8AA54231B900 /* UIColor+HexString.swift */,
-				A92E181687443073577AD6FAA587D092 /* UIKit+Hero.swift */,
-				26B35C043A22FA9BC4FBEC6E7C8F71CA /* UIView+Hero.swift */,
-				656E0827C2989973EDA20C84C711BEE5 /* UIViewController+Hero.swift */,
-				DA8FC5988C606FC415FE0F225B61D73E /* Support Files */,
+				5EBA6D35CD3EBD2637DD75E1E1E2E9E4 /* AbstractDiffCalculator.swift */,
+				E4EC082441AB4EE26EB4D0728BD1EB79 /* Dwifft.swift */,
+				E6EFAE47204B310E1FFD55C9C3EA04C7 /* Dwifft+AppKit.swift */,
+				3C09F360624F1B364712EC7153603879 /* Dwifft+UIKit.swift */,
+				122F0BF3704E3025CFFF42A30208C301 /* SectionedValues.swift */,
+				E165D04D69B106174EF55F19AD8C910A /* Support Files */,
 			);
-			name = Hero;
+			path = Dwifft;
+			sourceTree = "<group>";
+		};
+		707EDE75FE2D15DE60D084C96895E703 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				F815057B0F33D599A53888F946308708 /* Array+HeroModifier.swift */,
+				82ECFEEF2361460ABA513D2BE710389B /* BasePreprocessor.swift */,
+				3438E8300336E65CAAD15A838E8AF78A /* CALayer+Hero.swift */,
+				6C2FD254C4B815964687253E9272D942 /* CAMediaTimingFunction+Hero.swift */,
+				766C1854BCF43B40FECC22F9793DD9CD /* CascadePreprocessor.swift */,
+				8156FD353564BD20392E300B63056E18 /* CG+Hero.swift */,
+				479D59D5B65DBA5FCCE9B16C66F4BFE6 /* ConditionalPreprocessor.swift */,
+				F14D7B910F45B596A750C47CDCB3510E /* DefaultAnimationPreprocessor.swift */,
+				3B0A1B5D812D3F8AC00F3454F19949E8 /* DispatchQueue+Hero.swift */,
+				3482A3010620B0173AE149879B9762ED /* HeroAnimatorViewContext.swift */,
+				B92409DA1189956CE4DFF37F9015974E /* HeroCompatible.swift */,
+				A457ECC321F893CE0B55DA216E36BFA7 /* HeroContext.swift */,
+				F2777C8257C22DEA7C805B51576F2E84 /* HeroCoreAnimationViewContext.swift */,
+				71D3B3771666162828D237216F2CEBF7 /* HeroDebugPlugin.swift */,
+				1ECAE90BCC8C7545408FB3E909D14034 /* HeroDebugView.swift */,
+				0E819596D202BD710BEDA5063584E476 /* HeroDefaultAnimator.swift */,
+				E2E0E018B5017B0DD5FC6215FE6DEC5D /* HeroModifier.swift */,
+				5D97C76B20E0B18D666231A7B18094BC /* HeroModifier+Advanced.swift */,
+				F9AD4B9C9E5EB0046EB74288F6493187 /* HeroModifier+HeroStringConvertible.swift */,
+				037037594F7CF0A69CD53267017029B0 /* HeroPlugin.swift */,
+				EBDB5D9F169AE791EF1722339AA1BDC9 /* HeroProgressRunner.swift */,
+				A11846FA225647E3A1CA6E47D474BA30 /* HeroStringConvertible.swift */,
+				5654779BE0A4FFCB36545640D19D2219 /* HeroTargetState.swift */,
+				B9868C45E474956F94AFA16D7D5C7B20 /* HeroTransition.swift */,
+				A69D17DDCB8BCE66E2AED3A4FF9BE2E1 /* HeroTransition+Animate.swift */,
+				46A8AB036D6389E76F002D7BF2D64A9D /* HeroTransition+Complete.swift */,
+				806F2EEAEDB2A89610D1095A7D425E78 /* HeroTransition+CustomTransition.swift */,
+				1A2BB45B0CF797EE1FC63BC1C53ECCA1 /* HeroTransition+Interactive.swift */,
+				E3F6F187EDE4964DB5837704D422FCB0 /* HeroTransition+Start.swift */,
+				2E9F1D541D5D10F51E548CAA6ABD8D44 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				692F81AF9BCA02CA818A7D78AB2392A8 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				C43305A8CB850185DB7978AB92951F27 /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				8D32F062AEB63C80B12E7DA04ADBB620 /* HeroTransitionState.swift */,
+				B6E2FF07F3A51BE41604B55E5CEB0A4A /* HeroTypes.swift */,
+				D0171E2CED78AE23B4FD9CFA5983D6AD /* HeroViewControllerDelegate.swift */,
+				186A4D790AB8EE4C814CD0A3811A8344 /* HeroViewPropertyViewContext.swift */,
+				6D4776EDCE95FD163E3715A678D192BE /* IgnoreSubviewModifiersPreprocessor.swift */,
+				BE3E9720F10475C137D6FECDD53D7876 /* Lexer.swift */,
+				1CD89D3E116076B4BD7782F07B260363 /* MatchPreprocessor.swift */,
+				E74BF8EF48B9014286F2F4A3893A1BF2 /* Nodes.swift */,
+				82EA720B7C9B387D50D1BE624F2745C2 /* Parser.swift */,
+				38027AF8C16A5B3D779AC46F53D4E44F /* Regex.swift */,
+				09282D4B4B79CDB4BAF9EEEA7B7AD686 /* SourcePreprocessor.swift */,
+				7D6BF1BA6A2ABA58C5AB7E30CBD647E7 /* SwiftSupport.swift */,
+				1A20098B67275E2A0D46E2CFE13D46B7 /* UIColor+HexString.swift */,
+				C3DDD8D24F83E4DE52573FF8A55181FE /* UIKit+Hero.swift */,
+				6AEDFA0B675F0B14A03901A5FB6AAE04 /* UIView+Hero.swift */,
+				47D9C4502C6B91ADF19F68B739418A65 /* UIViewController+Hero.swift */,
+				29C0CD072EC522CDC04E44B95495B313 /* Support Files */,
+			);
 			path = Hero;
 			sourceTree = "<group>";
 		};
-		6C0A648D1BCB8731BCBACE555F599FC8 /* Support Files */ = {
+		72668F700E583829496E3B012DE01C83 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF69625C327F5735C19FAE3E643C563A /* Dwifft.modulemap */,
-				8C3018D3FECE1B523519B89BF50D65D4 /* Dwifft.xcconfig */,
-				BC78C174E04F6A45CAF5E8F1DDB27B29 /* Dwifft-dummy.m */,
-				353D5D37AE263B2D21385B36167E09D3 /* Dwifft-Info.plist */,
-				57E4BD1C78FDF350E9D57CB55AB2E7DC /* Dwifft-prefix.pch */,
-				DC305E5B11B4ED9332D9D2114FA0ED7B /* Dwifft-umbrella.h */,
+				C69C815742A13215ABC884531970422D /* SwiftLint.debug.xcconfig */,
+				F012A25718A5D1775C0E62ABED8AC061 /* SwiftLint.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Dwifft";
-			sourceTree = "<group>";
-		};
-		70F5925F94AC623B1ECA76B21D485C27 /* Dwifft */ = {
-			isa = PBXGroup;
-			children = (
-				90D26B46670182E17BECA08666CE53E2 /* AbstractDiffCalculator.swift */,
-				44918529F524534FF1A78A1B9417864D /* Dwifft.swift */,
-				F2078ED09AE4DBCECE118B4840BCE343 /* Dwifft+AppKit.swift */,
-				BAAAF563CC4995A7AAFF3F57F6B04C12 /* Dwifft+UIKit.swift */,
-				BDCDA89B808FCC3898E0D54ED5DE0040 /* SectionedValues.swift */,
-				6C0A648D1BCB8731BCBACE555F599FC8 /* Support Files */,
-			);
-			name = Dwifft;
-			path = Dwifft;
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
 		9CE484C7D0A93D742A2226B5C4B731CD /* Products */ = {
@@ -465,7 +505,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
-				DB1A508E9D191673FB673E972D96F289 /* Pods */,
+				EFAE8BC19E6CF0CCBB47957F16EC83AE /* Pods */,
 				9CE484C7D0A93D742A2226B5C4B731CD /* Products */,
 				E85449DB0A8CE24173E358F1B7A9C810 /* Targets Support Files */,
 			);
@@ -487,27 +527,19 @@
 			path = "Target Support Files/Pods-OpenWeather";
 			sourceTree = "<group>";
 		};
-		DA8FC5988C606FC415FE0F225B61D73E /* Support Files */ = {
+		E165D04D69B106174EF55F19AD8C910A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				79CCA53FDB7C6AF3C4C09BD89900342A /* Hero.modulemap */,
-				37E156B6B8FAFEAF8F05273F558DD2BB /* Hero.xcconfig */,
-				341A576117D1128A6D7EA57690889763 /* Hero-dummy.m */,
-				C2D6D752896DC9B5C54A143DF8618021 /* Hero-Info.plist */,
-				2959BC34C89B9F61295BB8281303D50F /* Hero-prefix.pch */,
-				141E322C2F0F839814B545051D9861DC /* Hero-umbrella.h */,
+				C3ACA7CC3338808D83F3D917A9694E4D /* Dwifft.modulemap */,
+				FF3E3C3EC1B1C83440A5FF40027C3EC5 /* Dwifft-dummy.m */,
+				84B2ABE075C9CFF590C81F6E52A0E42C /* Dwifft-Info.plist */,
+				1E3EF2D8B10500CE50EF732C308C8B57 /* Dwifft-prefix.pch */,
+				2250C5E3EDEFE14AEEA4B18A894D17D0 /* Dwifft-umbrella.h */,
+				C5218EA7C612033D202008881278E99D /* Dwifft.debug.xcconfig */,
+				69C8C3EF816BB377CA9B5D30536E25FC /* Dwifft.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Hero";
-			sourceTree = "<group>";
-		};
-		DB1A508E9D191673FB673E972D96F289 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				70F5925F94AC623B1ECA76B21D485C27 /* Dwifft */,
-				5C9742BCE66CF14C9CAEF60AA5D94FD7 /* Hero */,
-			);
-			name = Pods;
+			path = "../Target Support Files/Dwifft";
 			sourceTree = "<group>";
 		};
 		E85449DB0A8CE24173E358F1B7A9C810 /* Targets Support Files */ = {
@@ -521,6 +553,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		EFAE8BC19E6CF0CCBB47957F16EC83AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6653422FC9E211AFFAC7DA76865ED4B6 /* Dwifft */,
+				707EDE75FE2D15DE60D084C96895E703 /* Hero */,
+				F3043972FB98EA47BECC1367DBCF3DD5 /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3043972FB98EA47BECC1367DBCF3DD5 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				72668F700E583829496E3B012DE01C83 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -532,11 +582,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		557A7839BED39FD409B85AC583C0653E /* Headers */ = {
+		1C8A6276B8D1036BE03080EDEAFFCF94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				336F113A85B7EA1CCE001980AFE209E8 /* Pods-Weather-WeatherUITests-umbrella.h in Headers */,
+				7716F6F6D6E71A1FEAC0ACAF899483ED /* Pods-Weather-WeatherUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7A7FF6A9D067BD46A542AF80DE21CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C44AE3383BEB6F219BD354443F7ECE0 /* Pods-Weather-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,31 +622,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EED5DD4F3E911FB9BE6F5F808BC76096 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D814A3704C7F7F3AB894744C5F7D64B /* Pods-Weather-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		10B99686003B4D8467D8513296D055FE /* Pods-Weather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9E4BA5896E10485DDD86D5DBA12653A /* Build configuration list for PBXNativeTarget "Pods-Weather" */;
+			buildConfigurationList = 3138964F96054E66233D76EA77C6733A /* Build configuration list for PBXNativeTarget "Pods-Weather" */;
 			buildPhases = (
-				EED5DD4F3E911FB9BE6F5F808BC76096 /* Headers */,
-				A51CD86224F8EA881D5CC5FCDCC2BFBC /* Sources */,
-				FE15A4DF63168E17E2EFCAC4EFA1BE59 /* Frameworks */,
-				54C345F1B6DA1E1CA3312FEB71B602AD /* Resources */,
+				5D7A7FF6A9D067BD46A542AF80DE21CF /* Headers */,
+				00D2D4AD6D7869E8C0532F167CBBD2EF /* Sources */,
+				7E41B9B95FDB6F4838BEBEDE74BE8D34 /* Frameworks */,
+				136B1A1DD7E4160D6DD98CA0E4C30D9B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BEF57FBFEAB9932CE7A62897214393DA /* PBXTargetDependency */,
-				65A1C18A0BE546611575ADCFD12C3AAF /* PBXTargetDependency */,
+				C7DFA534F1EE3C1F8031D16D37C46209 /* PBXTargetDependency */,
+				36663343F85126FA3D7960C1764ADFB9 /* PBXTargetDependency */,
+				42B7C3BC63FA83530951C6067303178B /* PBXTargetDependency */,
 			);
 			name = "Pods-Weather";
 			productName = "Pods-Weather";
@@ -670,18 +721,19 @@
 		};
 		F5D92165F40A8C978F6B11781096A36B /* Pods-Weather-WeatherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D6A04B7D871C3D3B27FC7D89B0B47D2 /* Build configuration list for PBXNativeTarget "Pods-Weather-WeatherUITests" */;
+			buildConfigurationList = 89CB5C5488D1072D312C1767684D0F61 /* Build configuration list for PBXNativeTarget "Pods-Weather-WeatherUITests" */;
 			buildPhases = (
-				557A7839BED39FD409B85AC583C0653E /* Headers */,
-				95E5B20C8491E7682BF35053DD19443B /* Sources */,
-				1074742FA195B2E644BE2BE6A21FDDF3 /* Frameworks */,
-				147566A85022683271D925878965786D /* Resources */,
+				1C8A6276B8D1036BE03080EDEAFFCF94 /* Headers */,
+				F3833DA9D43E0471CB77EFAB4DF06F62 /* Sources */,
+				31AD18FCDBF2B1EDE5C4F58641AFA9D2 /* Frameworks */,
+				F08721E188035344D51F1B7EB7CCFC71 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				341819A67ACA2B478F08FFFFCEB6F103 /* PBXTargetDependency */,
-				2508ED062B216B20098BD19BB403DF9C /* PBXTargetDependency */,
+				E6F53DB52D5D01E4517B241C79CD07C7 /* PBXTargetDependency */,
+				05271D675A4AD7313309C3DAFEBAA2E6 /* PBXTargetDependency */,
+				1881433C0C56AF340FBA84A07AC90D5A /* PBXTargetDependency */,
 			);
 			name = "Pods-Weather-WeatherUITests";
 			productName = "Pods-Weather-WeatherUITests";
@@ -696,6 +748,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					B3893AEA4D7DBB9A086E889FC469132D = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -716,6 +773,7 @@
 				10B99686003B4D8467D8513296D055FE /* Pods-Weather */,
 				F5D92165F40A8C978F6B11781096A36B /* Pods-Weather-WeatherUITests */,
 				BB310F9D2A14C2524E05866166ACC225 /* Pods-WeatherTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
@@ -728,14 +786,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		147566A85022683271D925878965786D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		54C345F1B6DA1E1CA3312FEB71B602AD /* Resources */ = {
+		136B1A1DD7E4160D6DD98CA0E4C30D9B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -763,9 +814,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F08721E188035344D51F1B7EB7CCFC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		00D2D4AD6D7869E8C0532F167CBBD2EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE19AA790752898A1E0ED7D5920E57 /* Pods-Weather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		00F793CCEBC4E0496B923C44BCA4EE8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,14 +858,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77727575626BC32FC9E1954FF6F163B5 /* Pods-WeatherTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95E5B20C8491E7682BF35053DD19443B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FCD80C71907FD3ADFB0FB5B584FF93DE /* Pods-Weather-WeatherUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,40 +917,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A51CD86224F8EA881D5CC5FCDCC2BFBC /* Sources */ = {
+		F3833DA9D43E0471CB77EFAB4DF06F62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F57A3848FA6707E7388983ED95AD25A8 /* Pods-Weather-dummy.m in Sources */,
+				7E728E1A7957066214EB5C245CA35CE2 /* Pods-Weather-WeatherUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2508ED062B216B20098BD19BB403DF9C /* PBXTargetDependency */ = {
+		05271D675A4AD7313309C3DAFEBAA2E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hero;
 			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
-			targetProxy = 2EA0A5A672488255E4E205A977EBDE3D /* PBXContainerItemProxy */;
+			targetProxy = 46D690AF529A64D20108A56912A239AF /* PBXContainerItemProxy */;
 		};
-		341819A67ACA2B478F08FFFFCEB6F103 /* PBXTargetDependency */ = {
+		1881433C0C56AF340FBA84A07AC90D5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Dwifft;
-			target = 4255A53C9FC46E2A6605D689307219F6 /* Dwifft */;
-			targetProxy = 3C0D04D5CB8CABFC4127D3B78C9D7DDB /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = B0E61DBAC4ECD179AF63F9B02DA2F3FC /* PBXContainerItemProxy */;
 		};
-		65A1C18A0BE546611575ADCFD12C3AAF /* PBXTargetDependency */ = {
+		36663343F85126FA3D7960C1764ADFB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hero;
 			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
-			targetProxy = ABB096327D4CD2C8AF957F72BA2EB728 /* PBXContainerItemProxy */;
+			targetProxy = 7AE1D7FF1E27AECF8C0B61490A22D653 /* PBXContainerItemProxy */;
 		};
-		BEF57FBFEAB9932CE7A62897214393DA /* PBXTargetDependency */ = {
+		42B7C3BC63FA83530951C6067303178B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 947F1C6B23BFDB778426FE97AF401572 /* PBXContainerItemProxy */;
+		};
+		C7DFA534F1EE3C1F8031D16D37C46209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Dwifft;
 			target = 4255A53C9FC46E2A6605D689307219F6 /* Dwifft */;
-			targetProxy = EB467DC8F48F2ADC9A3200BF80A22044 /* PBXContainerItemProxy */;
+			targetProxy = 4D5DAE81360E487DD42B6FD7A956B55B /* PBXContainerItemProxy */;
+		};
+		E6F53DB52D5D01E4517B241C79CD07C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dwifft;
+			target = 4255A53C9FC46E2A6605D689307219F6 /* Dwifft */;
+			targetProxy = 0362F90EFAE31AC66271828C1038E4B4 /* PBXContainerItemProxy */;
 		};
 		F5EDBBE25426B7708D054D41E4AD3106 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -903,6 +973,41 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1070FA8E0DCAFD8C12EDD8C2404E947C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5218EA7C612033D202008881278E99D /* Dwifft.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
+				PRODUCT_MODULE_NAME = Dwifft;
+				PRODUCT_NAME = Dwifft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2A195D155470BADD56E7FAB475C5E01F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74283300E17AEE5DF3AE12F4892C0581 /* Pods-WeatherTests.debug.xcconfig */;
@@ -938,6 +1043,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69C815742A13215ABC884531970422D /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1001,45 +1122,26 @@
 			};
 			name = Release;
 		};
-		57F60B71D09CD0CB1F2ED7BF13A35719 /* Release */ = {
+		55DD740115BE746C8DBB7753806D85D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E156B6B8FAFEAF8F05273F558DD2BB /* Hero.xcconfig */;
+			baseConfigurationReference = F012A25718A5D1775C0E62ABED8AC061 /* SwiftLint.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
-				PRODUCT_MODULE_NAME = Hero;
-				PRODUCT_NAME = Hero;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		66874F8DDCD5F0CCD4A7FE4EB382ABBD /* Debug */ = {
+		75C407295FA08155171C8CEA434641E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8EC59A6903A68A3DB5A3EACB8E1738A /* Pods-Weather-WeatherUITests.debug.xcconfig */;
+			baseConfigurationReference = A8E1ED9B37D4D31A6DAFCE6A1FB605A9 /* Pods-Weather-WeatherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1070,45 +1172,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		788CBD05F190594E176B8CAC890D798E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E156B6B8FAFEAF8F05273F558DD2BB /* Hero.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
-				PRODUCT_MODULE_NAME = Hero;
-				PRODUCT_NAME = Hero;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1174,42 +1242,7 @@
 			};
 			name = Debug;
 		};
-		8B24A4DC9E187E5C074453BC94DDBA01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C3018D3FECE1B523519B89BF50D65D4 /* Dwifft.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
-				PRODUCT_MODULE_NAME = Dwifft;
-				PRODUCT_NAME = Dwifft;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A3774730F02C8F0B2F32042E349069D7 /* Debug */ = {
+		86FE64811425B22F79683E2FD6274F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2F431C0C55310415D8F7C1D76C98930 /* Pods-Weather.debug.xcconfig */;
 			buildSettings = {
@@ -1247,9 +1280,9 @@
 			};
 			name = Debug;
 		};
-		AFD17943E4F967052618A1D8139547A8 /* Release */ = {
+		8C295DD730DEE73AABA995CF4EE678F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8E1ED9B37D4D31A6DAFCE6A1FB605A9 /* Pods-Weather-WeatherUITests.release.xcconfig */;
+			baseConfigurationReference = C8EC59A6903A68A3DB5A3EACB8E1738A /* Pods-Weather-WeatherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1280,13 +1313,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B38C15C53E7E342FE54DDD3FDF20A9E0 /* Release */ = {
+		91616452E385FA2925BC4C2763EEFC53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 329B55EEB0D6AF05CD771502C7935191 /* Pods-Weather.release.xcconfig */;
 			buildSettings = {
@@ -1325,6 +1357,77 @@
 			};
 			name = Release;
 		};
+		AB86F4B3A68A809430198ED50D7FD612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C8C3EF816BB377CA9B5D30536E25FC /* Dwifft.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
+				PRODUCT_MODULE_NAME = Dwifft;
+				PRODUCT_NAME = Dwifft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFA88406794C895BA0C96ECBFFC4598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAECF32DB4F14C0A64998AA299D2A2B2 /* Hero.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B4F6FE972F1FB764CBC297DCAEF8BF5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AD8746FDF62C7E9DA6A1040966B07EA /* Pods-OpenWeather.release.xcconfig */;
@@ -1357,42 +1460,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA030FB1E4F36E179543E3FDC0186B92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C3018D3FECE1B523519B89BF50D65D4 /* Dwifft.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Dwifft/Dwifft-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Dwifft/Dwifft-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Dwifft/Dwifft.modulemap";
-				PRODUCT_MODULE_NAME = Dwifft;
-				PRODUCT_NAME = Dwifft;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1477,14 +1544,59 @@
 			};
 			name = Debug;
 		};
+		F3B323C7BA27D24A50A6F858262D0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B509F61F3DCF6EBDA939F290A379A56 /* Hero.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3138964F96054E66233D76EA77C6733A /* Build configuration list for PBXNativeTarget "Pods-Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE64811425B22F79683E2FD6274F85 /* Debug */,
+				91616452E385FA2925BC4C2763EEFC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3E8FE3182F7A698B2443CEBCF9A30678 /* Build configuration list for PBXNativeTarget "Hero" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				788CBD05F190594E176B8CAC890D798E /* Debug */,
-				57F60B71D09CD0CB1F2ED7BF13A35719 /* Release */,
+				AFA88406794C895BA0C96ECBFFC4598A /* Debug */,
+				F3B323C7BA27D24A50A6F858262D0900 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1501,17 +1613,17 @@
 		67375D2293447FAF29DF2E5022FF51F7 /* Build configuration list for PBXNativeTarget "Dwifft" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B24A4DC9E187E5C074453BC94DDBA01 /* Debug */,
-				BA030FB1E4F36E179543E3FDC0186B92 /* Release */,
+				1070FA8E0DCAFD8C12EDD8C2404E947C /* Debug */,
+				AB86F4B3A68A809430198ED50D7FD612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D6A04B7D871C3D3B27FC7D89B0B47D2 /* Build configuration list for PBXNativeTarget "Pods-Weather-WeatherUITests" */ = {
+		89CB5C5488D1072D312C1767684D0F61 /* Build configuration list for PBXNativeTarget "Pods-Weather-WeatherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66874F8DDCD5F0CCD4A7FE4EB382ABBD /* Debug */,
-				AFD17943E4F967052618A1D8139547A8 /* Release */,
+				8C295DD730DEE73AABA995CF4EE678F3 /* Debug */,
+				75C407295FA08155171C8CEA434641E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1525,20 +1637,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EECD2DED30D7C5FE141C0B267C2D3F /* Debug */,
+				55DD740115BE746C8DBB7753806D85D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DA6AF43A5C612E75F5E14E6D32B906A7 /* Build configuration list for PBXNativeTarget "Pods-OpenWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED67F4D7CECD5DE984B9B49E2465BADB /* Debug */,
 				B4F6FE972F1FB764CBC297DCAEF8BF5D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F9E4BA5896E10485DDD86D5DBA12653A /* Build configuration list for PBXNativeTarget "Pods-Weather" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A3774730F02C8F0B2F32042E349069D7 /* Debug */,
-				B38C15C53E7E342FE54DDD3FDF20A9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

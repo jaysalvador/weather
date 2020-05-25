@@ -406,6 +406,7 @@
 				B543AF1A242C2DD40099F2CF /* Frameworks */,
 				B543AF1B242C2DD40099F2CF /* Resources */,
 				94F5725DD929D51523EE30B2 /* [CP] Embed Pods Frameworks */,
+				B5542E83247B4AD400DB34CD /* Run Swiftlint */,
 			);
 			buildRules = (
 			);
@@ -653,6 +654,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Weather/Pods-Weather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B5542E83247B4AD400DB34CD /* Run Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		EA7BE541927B10DAF4A867FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
