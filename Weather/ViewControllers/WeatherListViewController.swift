@@ -66,6 +66,8 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
         self.viewModel?.onUpdated = { [weak self] in
 
             DispatchQueue.main.async {
+                
+                self?.refreshControl.endRefreshing()
 
                 self?.updateSectionsAndItems()
             }
@@ -178,8 +180,6 @@ class WeatherListViewController: JCollectionViewController<WeatherListSection, W
     func onRefresh() {
         
         self.viewModel?.reloadLocations(false)
-        
-        self.refreshControl.endRefreshing()
     }
 
     func onWeatherSelectedClosure(location: Location) {
